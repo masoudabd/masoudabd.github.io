@@ -1,0 +1,206 @@
+<!doctype html>
+<!-- GENERATED FILE: index.html is built from content.json + template.html by build.py. Edit those, then run `python build.py`. -->
+<html lang="en" data-focus="{{default_focus}}" data-variants="{{variant_keys}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<link rel="canonical" href="{{url}}">
+<meta name="author" content="{{name_full}}">
+<meta name="theme-color" content="#faf9f6">
+
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="{{name_full}}">
+<meta property="og:title" content="{{og_title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{url}}">
+<meta property="og:image" content="{{url}}{{og_image}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{name_full}}, Senior R&amp;D Scientist">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{og_title}}">
+<meta name="twitter:description" content="{{description}}">
+<meta name="twitter:image" content="{{url}}{{og_image}}">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;1,8..60,500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v={{build_stamp}}">
+
+<script type="application/ld+json">{{jsonld}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="#top">Masoud Abdollahi<span class="wordmark-suffix">, Ph.D.</span></a>
+    <nav class="site-nav" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#publications">Publications</a>
+      <a href="#patents">Patents</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" data-resume href="{{resume}}">R&eacute;sum&eacute; (PDF)</a>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+{{hero_variants}}
+      <div class="cta-row">
+        <a class="btn btn-primary" data-resume href="{{resume}}">Download r&eacute;sum&eacute;</a>
+        <a class="btn btn-ghost" href="{{scholar}}" rel="noopener">Google Scholar</a>
+        <a class="btn btn-ghost" href="{{linkedin}}" rel="noopener">LinkedIn</a>
+      </div>
+      <p class="hero-honor">
+        <svg class="icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2h10v3.5a5 5 0 0 1-10 0V2Zm-3 1h3v2.5a3 3 0 0 1-3-2.5Zm16 0h-3v2.5a3 3 0 0 0 3-2.5ZM8 12h4v2h2v2H6v-2h2v-2Z" fill="currentColor"/></svg>
+        <span>{{hero_honor}}</span>
+      </p>
+    </div>
+    <figure class="hero-photo">
+      <picture>
+        <source type="image/webp" srcset="assets/portrait-400.webp 400w, assets/portrait-640.webp 640w, assets/portrait-1000.webp 1000w" sizes="(max-width: 860px) 200px, 360px">
+        <img src="assets/portrait-640.jpg" srcset="assets/portrait-400.jpg 400w, assets/portrait-640.jpg 640w, assets/portrait-1000.jpg 1000w" sizes="(max-width: 860px) 200px, 360px" width="640" height="800" alt="Portrait of Masoud Abdollahi" fetchpriority="high">
+      </picture>
+    </figure>
+  </div>
+  <div class="wrap">
+{{metrics_variants}}
+  </div>
+</section>
+
+<section class="band" id="now" aria-label="Current roles">
+  <div class="wrap two-col">
+    <div class="col-head">
+      <p class="label">Now</p>
+      <h2>Current roles</h2>
+    </div>
+    <div class="roles">
+{{roles}}
+    </div>
+  </div>
+</section>
+
+<section class="band" id="about">
+  <div class="wrap two-col">
+    <div class="col-head">
+      <p class="label">About</p>
+      <h2>Profile</h2>
+    </div>
+    <div>
+{{about_variants}}
+    </div>
+  </div>
+</section>
+
+<section class="band band-alt" id="work">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">Work</p>
+      <h2>Selected work</h2>
+      <p class="section-note">Research taken all the way to deployment, in industry and in the clinic.</p>
+    </div>
+{{work_variants}}
+  </div>
+</section>
+
+<section class="band" id="publications">
+  <div class="wrap two-col">
+    <div class="col-head">
+      <p class="label">Research</p>
+      <h2>Selected publications</h2>
+      <p class="col-note">{{pub_stats}}</p>
+      <a class="btn btn-ghost btn-sm" href="{{scholar}}" rel="noopener">Full list on Google Scholar</a>
+    </div>
+    <div>
+{{pub_variants}}
+    </div>
+  </div>
+</section>
+
+<section class="band band-alt" id="patents">
+  <div class="wrap two-col">
+    <div class="col-head">
+      <p class="label">Intellectual property</p>
+      <h2>Patents</h2>
+      <p class="col-note">Inventor on 4 U.S. patent filings spanning wearable sensing and agentic / generative AI.</p>
+    </div>
+    <ol class="patents">
+{{patents}}
+    </ol>
+  </div>
+</section>
+
+<section class="band" id="education">
+  <div class="wrap two-col">
+    <div class="col-head">
+      <p class="label">Background</p>
+      <h2>Education</h2>
+    </div>
+    <div class="edu">
+{{education}}
+    </div>
+  </div>
+</section>
+
+<section class="band band-alt" id="honors">
+  <div class="wrap two-col">
+    <div class="col-head">
+      <p class="label">Recognition</p>
+      <h2>Honors &amp; service</h2>
+    </div>
+    <div>
+      <ul class="honors">
+{{honors}}
+      </ul>
+      <h3 class="sub">Peer review</h3>
+      <p class="service">{{service}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="contact">
+  <div class="wrap two-col">
+    <div class="col-head">
+      <p class="label">Contact</p>
+      <h2>Get in touch</h2>
+      <p class="col-note">{{location}}</p>
+    </div>
+    <div>
+      <p class="contact-lede">The fastest way to reach me is email. I reply to every serious message.</p>
+      <div class="contact-grid">
+        <a href="mailto:{{email}}"><span class="contact-k">Email</span><span class="contact-v">{{email}}</span></a>
+        <a href="{{linkedin}}" rel="noopener"><span class="contact-k">LinkedIn</span><span class="contact-v">masoud-abdollahi</span></a>
+        <a href="{{scholar}}" rel="noopener"><span class="contact-k">Google Scholar</span><span class="contact-v">Publications &amp; citations</span></a>
+        <a href="mailto:{{email}}?subject=Phone%20request"><span class="contact-k">Phone</span><span class="contact-v">Available on request</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; {{year}} {{name_full}}</span>
+    <span>Updated {{updated}}</span>
+    <a href="{{repo}}" rel="noopener">Site source</a>
+  </div>
+</footer>
+
+<script id="variants-meta" type="application/json">{{variants_meta}}</script>
+<script src="site.js?v={{build_stamp}}"></script>
+</body>
+</html>

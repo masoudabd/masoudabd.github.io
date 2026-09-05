@@ -1,0 +1,498 @@
+{
+  "_comment": "Single source of truth for the site. Edit this file, then run `python build.py` to regenerate index.html. Every fact here must be traceable to _Master/Master_Profile.md in the Resume and CV workspace. Inline markup allowed in text fields: <em>, <strong>, <br>.",
+
+  "default_focus": "wearables",
+
+  "site": {
+    "url": "https://masoudabd.github.io/",
+    "repo": "https://github.com/masoudabd/masoudabd.github.io",
+    "name": "Masoud Abdollahi",
+    "name_full": "Masoud Abdollahi, Ph.D.",
+    "email": "masudabdollahi@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/masoud-abdollahi-a1801753/",
+    "scholar": "https://scholar.google.com/citations?user=6AYrcZMAAAAJ&hl=en",
+    "location": "Michigan, USA · open to relocation",
+    "hero_honor": "3rd Prize, 2025 Hitachi Global Technology Award · global, company-wide R&D recognition",
+    "og_image": "assets/og-image.jpg"
+  },
+
+  "stats": {
+    "publications": "27+",
+    "citations": "650+",
+    "h_index": "14",
+    "patents": "4",
+    "patents_published": "1"
+  },
+
+  "roles": [
+    {
+      "title": "Senior R&D Scientist",
+      "org": "Hitachi America, Ltd.",
+      "where": "Novi, MI",
+      "period": "Feb 2023 – Present",
+      "note": "Promoted to Senior R&D Scientist in Jun 2026; lead multiple R&D projects and own a research roadmap."
+    },
+    {
+      "title": "Research Engineer III",
+      "org": "Oregon Health & Science University",
+      "where": "part-time, remote",
+      "period": "Feb 2024 – Present",
+      "note": "Wearable-sensor AI for freezing of gait and fall risk in Parkinson's disease, alongside clinicians."
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Ph.D., Mechanical and Industrial Engineering",
+      "school": "Rochester Institute of Technology",
+      "period": "2017 – 2023",
+      "note": "Dissertation: <em>A Comprehensive Machine Learning Approach to Assess Fall Risk in Stroke Survivors: Integrating Common Clinical Tests, Motor-Cognitive Dual-Tasks, Wearable Motion Sensors, and Detailed Motion Analysis</em>. Graduate Research Assistant, Biomechanics & Ergonomics Lab; Graduate Teaching Assistant for 10+ courses."
+    },
+    {
+      "degree": "M.Sc., Mechanical Engineering",
+      "school": "Sharif University of Technology",
+      "period": "2012 – 2015",
+      "note": "Ranked 1st among M.Sc. students in Biomechanics."
+    },
+    {
+      "degree": "B.Sc., Mechanical Engineering",
+      "school": "Semnan University",
+      "period": "2007 – 2011",
+      "note": ""
+    }
+  ],
+
+  "honors": [
+    { "year": "2025", "text": "3rd Prize, Hitachi Global Technology Award (global, company-wide recognition for R&D contribution)" },
+    { "year": "2018", "text": "Ranked 1st, Machine Learning Competition, Dept. of Computer Engineering, RIT (about 60 students, mostly CS/CE majors)" },
+    { "year": "2016", "text": "One of 10 global travel grants, Autumn School on Movement Science, Berlin, Germany" },
+    { "year": "2015", "text": "Ranked 1st among M.Sc. students in Biomechanics, Sharif University of Technology" }
+  ],
+
+  "service": "Active peer reviewer for 15+ journals since 2017, including <em>Medical Engineering & Physics</em>, <em>Human-centric Computing & Information Sciences</em>, <em>IEEE Open Journal of the Computer Society</em>, <em>Frontiers in Bioengineering & Biotechnology</em>, <em>Ergonomics</em>, <em>Pain Medicine</em>, and <em>The Journal of Supercomputing</em>.",
+
+  "patents": [
+    {
+      "status": "Published",
+      "number": "US 2026/0198641 A1",
+      "date": "Published Jul 16, 2026",
+      "inventors": "Zhou, Q., & Abdollahi, M.",
+      "title": "Smart Sole Architecture for Measuring Ground Reaction Force and Method for Unifying Coordinates for Feet Positions and Gestures",
+      "note": "U.S. Patent Application Publication; App. No. 19/017,350, filed Jan 10, 2025; applicant Hitachi, Ltd. Wearable in-shoe pressure sensing for ground-reaction-force computation, posture-adjustment recommendations, and foot position/gesture coordinates.",
+      "url": ""
+    },
+    {
+      "status": "Under USPTO review",
+      "number": "",
+      "date": "2025",
+      "inventors": "Abdollahi, M., et al.",
+      "title": "Agentic AI & generative AI for automated job-instruction creation",
+      "note": "U.S. Patent Application, Hitachi America, Ltd.",
+      "url": ""
+    },
+    {
+      "status": "In preparation",
+      "number": "",
+      "date": "2026",
+      "inventors": "Abdollahi, M., et al.",
+      "title": "Agentic AI, generative AI, and sensor-based human performance assessment (2 applications)",
+      "note": "U.S. Patent Applications in preparation with Hitachi America, Ltd. IP & Legal.",
+      "url": ""
+    }
+  ],
+
+  "publications": {
+    "insoles": {
+      "authors": "<strong>Abdollahi, M.</strong>, Zhou, Q., & Yuan, W.",
+      "year": "2024",
+      "title": "Smart wearable insoles in industrial environments: A systematic review",
+      "venue": "Applied Ergonomics 118, 104250",
+      "doi": "10.1016/j.apergo.2024.104250"
+    },
+    "fallml": {
+      "authors": "<strong>Abdollahi, M.</strong>, Rashedi, E., Jahangiri, S., Kuber, P. M., Azadeh-Fard, N., & Dombovy, M.",
+      "year": "2024",
+      "title": "Fall risk assessment in stroke survivors: a machine learning model using detailed motion data from common clinical tests and motor-cognitive dual-tasking",
+      "venue": "Sensors 24(3), 812",
+      "doi": "10.3390/s24030812"
+    },
+    "inpatient": {
+      "authors": "Jahangiri, S., <strong>Abdollahi, M.</strong>, Patil, R., Rashedi, E., & Azadeh-Fard, N.",
+      "year": "2024",
+      "title": "An inpatient fall risk assessment tool: Application of machine learning models on intrinsic and extrinsic risk factors",
+      "venue": "Machine Learning with Applications 15, 100519",
+      "doi": "10.1016/j.mlwa.2023.100519"
+    },
+    "hf": {
+      "authors": "Jahangiri, S., <strong>Abdollahi, M.</strong>, Rashedi, E., & Azadeh-Fard, N.",
+      "year": "2024",
+      "title": "A machine learning model to predict heart failure readmission: toward optimal feature set",
+      "venue": "Frontiers in Artificial Intelligence 7, 1363226",
+      "doi": "10.3389/frai.2024.1363226"
+    },
+    "fallreview": {
+      "authors": "<strong>Abdollahi, M.</strong>, Whitton, N., Zand, R., Dombovy, M., Parnianpour, M., Khalaf, K., & Rashedi, E.",
+      "year": "2022",
+      "title": "A systematic review of fall risk factors in stroke survivors: towards improved assessment platforms and protocols",
+      "venue": "Frontiers in Bioengineering and Biotechnology 10",
+      "doi": "10.3389/fbioe.2022.910698"
+    },
+    "turning": {
+      "authors": "<strong>Abdollahi, M.</strong>, Kuber, P. M., Shiraishi, M., Soangra, R., & Rashedi, E.",
+      "year": "2022",
+      "title": "Kinematic analysis of 360° turning in stroke survivors using wearable motion sensors",
+      "venue": "Sensors 22(1), 385",
+      "doi": "10.3390/s22010385"
+    },
+    "exo": {
+      "authors": "Kuber, P. M., <strong>Abdollahi, M.</strong>, Alemi, M. M., & Rashedi, E.",
+      "year": "2022",
+      "title": "A systematic review on evaluation strategies for field assessment of upper-body industrial exoskeletons",
+      "venue": "Annals of Biomedical Engineering",
+      "doi": "10.1007/s10439-022-03003-1"
+    },
+    "fatigue": {
+      "authors": "Karvekar, S.*, <strong>Abdollahi, M.</strong>*, & Rashedi, E. (*equal contribution)",
+      "year": "2021",
+      "title": "Smartphone-based human fatigue level detection using machine learning approaches",
+      "venue": "Ergonomics",
+      "doi": "10.1080/00140139.2020.1858185"
+    },
+    "lbp": {
+      "authors": "<strong>Abdollahi, M.</strong>, Ashouri, S., Abedi, M., Azadeh-Fard, N., Parnianpour, M., Khalaf, K., & Rashedi, E.",
+      "year": "2020",
+      "title": "Using a motion sensor to categorize nonspecific low back pain patients: A machine learning approach",
+      "venue": "Sensors 20(12), 3600",
+      "doi": "10.3390/s20123600"
+    }
+  },
+
+  "variants": {
+
+    "wearables": {
+      "label": "Wearable & Health ML",
+      "title": "Masoud Abdollahi, Ph.D. | Machine Learning for Wearable & Clinical Time-Series Data",
+      "description": "Senior R&D Scientist with a Ph.D. building production ML on wearable and clinical time-series data: IMU, physiological, and sensor streams. 27+ publications, 650+ citations, 4 patent filings (1 published).",
+      "resume": "assets/resume/Masoud_Abdollahi_Resume_Wearable_Health_ML.pdf",
+      "kicker": "Senior R&D Scientist · Wearable & health machine learning",
+      "headline": "Machine learning for <em>wearable and clinical time-series data</em>, from research to production.",
+      "lede": "Ph.D. researcher with 4+ years developing and commercializing production ML systems on IMU, physiological, and sensor streams. I take models through the full lifecycle: exploratory research, pipeline design, rigorous statistical validation, and deployment in real-world and clinical environments.",
+      "metrics": [
+        { "value": "27+", "label": "peer-reviewed publications" },
+        { "value": "650+", "label": "citations · Google Scholar" },
+        { "value": "4", "label": "patent filings · 1 published" },
+        { "value": ">90%", "label": "accuracy, wearable + vision models in the field" }
+      ],
+      "summary": [
+        "ML Research Scientist with a Ph.D. and 4+ years developing and commercializing production ML systems on wearable and clinical time-series data. Deep expertise in deep learning, time-series analysis, signal processing, and multimodal fusion across IMU, physiological, and sensor streams: the core data modalities behind modern wearable health products.",
+        "Track record spanning the full model lifecycle, from exploratory research and pipeline design to rigorous statistical validation and production deployment in high-stakes healthcare and real-world environments. 27+ peer-reviewed publications, 650+ citations, and 4 patent filings (1 published). Currently building clinical AI models for Parkinson's disease on wearable-derived time-series data at Oregon Health & Science University."
+      ],
+      "expertise": [
+        { "name": "Wearable & time-series ML", "items": "IMU / accelerometer / gyroscope pipelines, physiological waveform analysis, signal processing (filtering, denoising, feature engineering), temporal deep learning (Transformers, RNN-LSTM, 1D-CNN), windowing & segmentation, robust validation on heterogeneous subject populations" },
+        { "name": "Deep learning", "items": "Transformers, CNN, RNN-LSTM, self-supervised & semi-supervised learning, transfer learning, multimodal fusion, foundation models, fine-tuning, distillation" },
+        { "name": "Healthcare & clinical data", "items": "Wearable sensor time-series, clinical assessments, EMR / clinical report processing, fall-risk and neurological impairment modeling, multi-subject longitudinal studies" },
+        { "name": "Statistical modeling & validation", "items": "Hypothesis testing, error estimation, performance monitoring, cross-subject generalization, A/B-style model comparison, calibration, drift detection" },
+        { "name": "Programming & frameworks", "items": "Python (5+ years), SQL (5+ years), PyTorch, TensorFlow, Hugging Face Transformers, scikit-learn, OpenCV, MATLAB, C++" },
+        { "name": "MLOps & deployment", "items": "End-to-end ML pipelines, large-scale dataset curation, containerized deployment, model monitoring, Azure ML / Azure OpenAI Foundry, reproducible experimentation" }
+      ],
+      "work": [
+        {
+          "flagship": true,
+          "tag": "Production ML · Hitachi America",
+          "title": "Multimodal deep learning system, prototype to full rollout",
+          "text": "Led end-to-end research, training, rigorous validation, and production deployment of a multimodal deep learning system that automated a complex bottleneck process in a live operational environment, working with scientists, software engineers, product managers, and test engineers.",
+          "bullets": [
+            "<strong>25%</strong> cycle-time reduction in a live operational environment",
+            "Evaluation framework with error estimation, subgroup performance analysis, and production monitoring for robustness across heterogeneous populations",
+            "<strong>500+ hours/year</strong> of deployment data collected, curated, and managed; reproducible training and evaluation pipelines from heterogeneous sensor and vision streams"
+          ]
+        },
+        {
+          "tag": "Wearable sensing · Computer vision",
+          "title": "Wearable + vision multimodal perception",
+          "text": "Multimodal perception systems that fuse IMU wearable streams (accelerometer, gyroscope) with computer vision, applying signal processing, feature engineering, and deep temporal models.",
+          "bullets": [
+            "<strong>>90%</strong> classification accuracy across diverse real-world users",
+            "Proof-of-concept sensing ideas translated into deployed, commercialized features through data exploration, ablation studies, and statistical validation"
+          ]
+        },
+        {
+          "tag": "Clinical AI · OHSU",
+          "title": "Wearable-sensor AI for Parkinson's disease",
+          "text": "Developing sensor-based deep learning models to analyze freezing of gait and fall risk in Parkinson's disease, applying time-series ML and signal processing to wearable-derived data in a research-to-deployment pipeline alongside clinicians and medical domain experts.",
+          "bullets": [
+            "Bridging quantitative modeling with clinical knowledge for patient-centered model design, validation strategy, and interpretation of health-relevant signals"
+          ]
+        },
+        {
+          "tag": "Published patent · US 2026/0198641 A1",
+          "title": "Smart-sole wearable for ground-reaction-force sensing",
+          "text": "In-shoe pressure-sensing architecture that computes ground reaction force, produces posture-adjustment recommendations, and unifies coordinates for foot positions and gestures. Co-invented with Q. Zhou; published Jul 16, 2026.",
+          "bullets": []
+        },
+        {
+          "tag": "Ph.D. research · RIT",
+          "title": "Machine learning for fall-risk assessment in stroke survivors",
+          "text": "Designed and led a data-driven fall-risk assessment model using 8 IMU sensors, common clinical tests, and motor-cognitive dual-tasking; led clinical data collection at Unity Hospital with patients with neurological conditions.",
+          "bullets": [
+            "Multiple top-journal publications and a defended Ph.D. dissertation",
+            "Related agendas: camera-based fall-risk assessment, smartphone fatigue detection (SVM, 91%), low-back-pain patient classification (SVM/MLP, 75%)"
+          ]
+        },
+        {
+          "tag": "Transformers · Structured data",
+          "title": "Transformer models for structured operational and report data",
+          "text": "Designed and built Transformer-based models on structured operational and report data for classification, anomaly detection, and quality assessment; pipelines directly analogous to clinical NLP over EMRs and structured health records.",
+          "bullets": []
+        },
+        {
+          "tag": "Early work · Aster Pet Sciences",
+          "title": "Real-time IMU activity recognition, shipped",
+          "text": "Led data collection, feature engineering, model design, and shipment of a real-time IMU-based activity recognition system (SVM, >70% accuracy) in 2021; first full ownership of an AI research-to-product pipeline.",
+          "bullets": []
+        }
+      ],
+      "publications": ["fallml", "turning", "insoles", "lbp", "fatigue", "fallreview", "inpatient", "hf", "exo"]
+    },
+
+    "healthcare": {
+      "label": "Healthcare AI & Generative AI",
+      "title": "Masoud Abdollahi, Ph.D. | Healthcare AI, Generative AI & Multimodal Deep Learning",
+      "description": "Senior R&D Scientist with a Ph.D. building and shipping production AI systems in healthcare and industrial settings: LLMs, vision-language models, generative AI, and multimodal deep learning on time-series and imaging data.",
+      "resume": "assets/resume/Masoud_Abdollahi_Resume_Healthcare_AI.pdf",
+      "kicker": "Senior R&D Scientist · Healthcare AI & generative AI",
+      "headline": "Production AI for <em>high-stakes healthcare and industrial settings</em>, where accuracy and reliability are non-negotiable.",
+      "lede": "Ph.D. researcher with 4+ years building and shipping production AI systems in data-rich environments. Hands-on with large language models, vision-language models, generative AI, self-supervised learning, and multimodal deep learning on time-series and imaging data.",
+      "metrics": [
+        { "value": "27+", "label": "peer-reviewed publications" },
+        { "value": "650+", "label": "citations · Google Scholar" },
+        { "value": "4", "label": "patent filings · 1 published" },
+        { "value": "25%", "label": "cycle-time reduction, VLM + GenAI system in production" }
+      ],
+      "summary": [
+        "AI/ML Research Scientist with a Ph.D. and 4+ years building and shipping production AI systems in high-stakes, data-rich environments: healthcare and industrial settings where accuracy and reliability are non-negotiable. Deep hands-on expertise in large language models, vision-language models, generative AI, self-supervised learning, and multimodal deep learning on time-series and imaging data.",
+        "Track record of closing the loop from fundamental research to production deployment, with 27+ peer-reviewed publications, 650+ citations, and 4 patent filings (1 published). Currently applying clinical AI models to wearable data from people with Parkinson's disease at Oregon Health & Science University."
+      ],
+      "expertise": [
+        { "name": "Generative & foundation models", "items": "LLMs, VLMs, large-scale pretraining, prompt tuning / prompt engineering, fine-tuning, distillation, quantization, RAG" },
+        { "name": "Deep learning architectures", "items": "Transformers, CNN, RNN-LSTM, semi-supervised & self-supervised learning, transfer learning, multimodal fusion" },
+        { "name": "Healthcare & clinical data", "items": "Time-series waveform analysis (IMU, EEG, clinical sensors), electronic medical records, clinical report processing, fall-risk and neurological assessment models" },
+        { "name": "Frameworks & tools", "items": "PyTorch, TensorFlow, Hugging Face Transformers, Azure OpenAI Foundry, Azure ML, OpenCV, MATLAB, SQL, Python, C++" },
+        { "name": "Responsible AI & MLOps", "items": "Robustness evaluation, statistical error estimation, end-to-end ML pipelines, production deployment, large-scale dataset design and curation" }
+      ],
+      "work": [
+        {
+          "flagship": true,
+          "tag": "Generative AI in production · Hitachi America",
+          "title": "Vision-Language Model + generative AI system, prototype to full rollout",
+          "text": "Led end-to-end research, training, and production deployment of a VLM + generative AI system that automated a complex bottleneck process across a live manufacturing facility.",
+          "bullets": [
+            "<strong>25%</strong> cycle-time reduction across a live facility",
+            "Azure OpenAI Foundry for model development, with evaluation workflows aligned to responsible AI principles",
+            "Rigorous statistical analyses and error estimation to meet production accuracy requirements on diverse, real-world subject populations"
+          ]
+        },
+        {
+          "tag": "LLMs · Structured reports",
+          "title": "Transformer models for structured report data",
+          "text": "Designed and built Transformer-based models on structured OEM data to automate classification, anomaly detection, and quality assessment; pipelines directly analogous to clinical NLP over EMRs and clinical reports.",
+          "bullets": []
+        },
+        {
+          "tag": "Multimodal learning · Wearables + vision",
+          "title": "Wearable + vision multimodal perception",
+          "text": "Multimodal perception systems fusing IMU wearable sensor streams and computer vision (pose estimation, action recognition), with >90% classification accuracy across deployment environments.",
+          "bullets": [
+            "<strong>500+ hours/year</strong> of in-field deployment data collected, curated, and managed; robust training and evaluation pipelines from heterogeneous sensor and vision streams"
+          ]
+        },
+        {
+          "tag": "Clinical AI · OHSU",
+          "title": "Wearable-sensor AI for Parkinson's disease",
+          "text": "Developing sensor-based deep learning models to analyze freezing of gait and fall risk in Parkinson's disease, in a research-to-deployment pipeline with clinicians and medical domain experts.",
+          "bullets": [
+            "Bridging quantitative ML modeling and clinical domain knowledge to inform responsible, patient-centered model development"
+          ]
+        },
+        {
+          "tag": "Patents · Agentic AI & GenAI",
+          "title": "Agentic AI & generative AI for automated job-instruction creation",
+          "text": "U.S. patent application under USPTO review (2025), plus two applications in preparation on agentic AI, generative AI, and sensor-based human performance assessment. Inventor on all 4 filings, including the published smart-sole wearable patent (US 2026/0198641 A1).",
+          "bullets": []
+        },
+        {
+          "tag": "Ph.D. research · RIT",
+          "title": "Machine learning for fall-risk assessment in stroke survivors",
+          "text": "Designed and led a data-driven fall-risk assessment model using 8 IMU sensors, common clinical tests, and motor-cognitive dual-tasking, with clinical data collection at Unity Hospital; multiple top-journal publications.",
+          "bullets": []
+        },
+        {
+          "tag": "Early work · Aster Pet Sciences",
+          "title": "Real-time IMU activity recognition, shipped",
+          "text": "Owned an AI project from inception to delivery in 2021: led data collection, model design, and shipment of a real-time IMU-based activity recognition system (SVM, >70% accuracy).",
+          "bullets": []
+        }
+      ],
+      "publications": ["hf", "inpatient", "fallml", "fallreview", "insoles", "fatigue", "lbp", "turning", "exo"]
+    },
+
+    "research": {
+      "label": "Research Scientist",
+      "title": "Masoud Abdollahi, Ph.D. | Research Scientist, Machine Learning & Multimodal AI",
+      "description": "Research Scientist with a Ph.D. and 4+ years of industry experience building and deploying ML systems at scale: deep learning, foundation models, vision-language models, multimodal AI. 27+ publications, 650+ citations, 4 patent filings.",
+      "resume": "assets/resume/Masoud_Abdollahi_Resume_Research_Scientist.pdf",
+      "kicker": "Senior R&D Scientist · Machine learning research",
+      "headline": "Research that ships: <em>from hypothesis to peer-reviewed publication to production</em>.",
+      "lede": "Ph.D. researcher with 4+ years of industry experience building and deploying machine learning systems at scale. Deep learning, foundation models, vision-language models, and multimodal AI, applied to real environments with measurable product impact.",
+      "metrics": [
+        { "value": "27+", "label": "peer-reviewed publications" },
+        { "value": "650+", "label": "citations · h-index 14" },
+        { "value": "4", "label": "patent filings · 1 published" },
+        { "value": "25%", "label": "bottleneck cut by a VLM + GenAI system in production" }
+      ],
+      "summary": [
+        "Research Scientist with a Ph.D. and 4+ years of industry experience building and deploying machine learning systems at scale. Expert in deep learning (CNNs, RNNs/LSTMs, Transformers), foundation models, vision-language models, and multimodal AI, applied to real manufacturing environments with measurable product impact.",
+        "Author of 27+ peer-reviewed publications (650+ citations) and 4 patent filings (1 published), with a track record of leading research agendas end-to-end from prototype to production. Experienced contributor to the broader research community through publications, peer review, and cross-institutional collaboration."
+      ],
+      "expertise": [
+        { "name": "Deep learning", "items": "Transformers, CNN, RNN-LSTM, 1D-CNN, self-supervised & semi-supervised learning, transfer learning, multimodal fusion, foundation models, fine-tuning, distillation, quantization" },
+        { "name": "Generative AI & computer vision", "items": "LLMs, VLMs, prompt engineering, RAG, Azure OpenAI Foundry; pose estimation, action recognition, OpenCV, MediaPipe" },
+        { "name": "Wearable & time-series ML", "items": "IMU / accelerometer / gyroscope pipelines, physiological waveform analysis, signal processing, gait and human motion analysis, cross-subject validation on heterogeneous populations" },
+        { "name": "Statistics & experimentation", "items": "Hypothesis testing, error estimation, calibration, drift detection, A/B-style model comparison, design of experiments, subgroup analysis" },
+        { "name": "Programming & MLOps", "items": "Python (5+ years), SQL (5+ years), PyTorch, TensorFlow, Hugging Face Transformers, scikit-learn, MATLAB, C++; end-to-end ML pipelines, containerized deployment, model monitoring, Azure ML" }
+      ],
+      "work": [
+        {
+          "flagship": true,
+          "tag": "Research to production · Hitachi America",
+          "title": "Vision-Language Model + generative AI system in production",
+          "text": "Led end-to-end research and deployment of a Vision-Language Model (VLM) + generative AI system that cut a critical manufacturing bottleneck by 25% at a U.S. Hitachi facility, from research concept to full production deployment.",
+          "bullets": [
+            "Deep learning (CNN, RNN-LSTM, Transformer) and classical ML pipelines on real automotive OEM datasets for manufacturing quality and warranty prediction",
+            "<strong>500+ hours/year</strong> of on-site factory data collection, bridging lab research and industrial-scale deployment",
+            "Research roadmap and technical strategy defined with engineering, IP/legal, and leadership teams"
+          ]
+        },
+        {
+          "tag": "Multimodal perception",
+          "title": "Wearable sensors + computer vision",
+          "text": "Multimodal perception systems combining wearable sensors and computer vision (pose estimation, action recognition), achieving >90% accuracy across real production environments.",
+          "bullets": []
+        },
+        {
+          "tag": "Ph.D. research · RIT",
+          "title": "Machine learning for fall-risk assessment in stroke survivors",
+          "text": "Designed and led a novel data-driven fall-risk assessment model using 8 IMU sensors and clinical cognitive dual-tasking, resulting in multiple top-journal publications and a defended Ph.D. dissertation.",
+          "bullets": [
+            "Clinical data collection at Unity Hospital with patients with neurological conditions"
+          ]
+        },
+        {
+          "tag": "Research leadership · RIT",
+          "title": "Three research agendas, hypothesis to publication",
+          "text": "Camera-based fall-risk assessment, smartphone fatigue detection (SVM, 91% accuracy), and low-back-pain patient classification (SVM/MLP, 75%), each led from hypothesis to publication.",
+          "bullets": [
+            "Contributed to NIH proposal writing (R01, R03, R21) and external grants alongside faculty and clinical collaborators",
+            "Mentored junior students and teaching assistants across 10+ semesters"
+          ]
+        },
+        {
+          "tag": "Clinical AI · OHSU",
+          "title": "Wearable-sensor AI for Parkinson's disease",
+          "text": "Developing sensor-based deep learning models to analyze freezing of gait and fall risk in Parkinson's disease, applying time-series ML and signal processing to wearable-derived data with clinicians and medical domain experts.",
+          "bullets": []
+        },
+        {
+          "tag": "Published patent · US 2026/0198641 A1",
+          "title": "Smart-sole wearable for ground-reaction-force sensing",
+          "text": "In-shoe pressure-sensing architecture that computes ground reaction force, produces posture-adjustment recommendations, and unifies coordinates for foot positions and gestures. Co-invented with Q. Zhou; published Jul 16, 2026.",
+          "bullets": []
+        },
+        {
+          "tag": "Early work · Aster Pet Sciences",
+          "title": "Real-time IMU activity recognition, shipped",
+          "text": "Led a small team to design, collect data for, and ship a real-time IMU-based dog activity recognition system (SVM, >70% accuracy) in 2021; first full ownership of an AI research-to-product pipeline.",
+          "bullets": []
+        }
+      ],
+      "publications": ["insoles", "fallml", "inpatient", "hf", "fallreview", "turning", "exo", "fatigue", "lbp"]
+    },
+
+    "industrial": {
+      "label": "Industrial & Automotive AI",
+      "title": "Masoud Abdollahi, Ph.D. | AI/ML Research Scientist, Industrial & Automotive AI",
+      "description": "AI/ML Research Scientist with a Ph.D. and 4+ years designing and deploying state-of-the-art ML systems for automotive and industrial applications: foundation models, VLMs, generative AI, computer vision, multimodal perception.",
+      "resume": "assets/resume/Masoud_Abdollahi_Resume_Research_Scientist.pdf",
+      "kicker": "Senior R&D Scientist · Industrial & automotive AI",
+      "headline": "State-of-the-art ML systems for <em>industrial and automotive applications</em>, deployed in the real world.",
+      "lede": "Ph.D. researcher with 4+ years of industry experience designing and deploying machine learning systems for automotive and industrial applications: foundation models, vision-language models, generative AI, computer vision, and multimodal perception.",
+      "metrics": [
+        { "value": "27+", "label": "peer-reviewed publications" },
+        { "value": "650+", "label": "citations · Google Scholar" },
+        { "value": "4", "label": "patent filings · 1 published" },
+        { "value": "25%", "label": "bottleneck cut by a VLM + GenAI system in production" }
+      ],
+      "summary": [
+        "AI/ML Research Scientist with a Ph.D. and 4+ years of industry experience designing and deploying state-of-the-art machine learning systems for automotive and industrial applications. Demonstrated expertise in foundation models, vision-language models (VLMs), generative AI, deep learning (CNNs, RNNs/LSTMs, Transformers), and self-supervised learning, with direct application to computer vision, multimodal perception, and real-world deployment.",
+        "Proven track record of end-to-end AI system development from research to production, with 4 patent filings (1 published), 27+ peer-reviewed publications (650+ citations), and cross-functional collaboration across engineering, IP, and leadership teams."
+      ],
+      "expertise": [
+        { "name": "Foundation models & generative AI", "items": "LLMs, VLMs, prompt engineering, fine-tuning, distillation, quantization, RAG, Azure OpenAI Foundry" },
+        { "name": "Deep learning", "items": "Transformers, CNN, RNN-LSTM, self-supervised & semi-supervised learning, transfer learning, multimodal fusion" },
+        { "name": "Computer vision & sensing", "items": "Pose estimation, action recognition, OpenCV, MediaPipe; IMU / accelerometer / gyroscope pipelines, signal processing, human motion analysis" },
+        { "name": "Statistics & experimentation", "items": "Hypothesis testing, error estimation, calibration, drift detection, design of experiments, subgroup analysis" },
+        { "name": "Programming & MLOps", "items": "Python (5+ years), SQL (5+ years), PyTorch, TensorFlow, Hugging Face Transformers, scikit-learn, MATLAB, C++; end-to-end ML pipelines, containerized deployment, model monitoring, Azure ML" }
+      ],
+      "work": [
+        {
+          "flagship": true,
+          "tag": "VLM + generative AI · Hitachi America",
+          "title": "Vision-Language Model + generative AI system in production",
+          "text": "Led research, productization, and deployment of a VLM + generative AI system that cut a critical manufacturing bottleneck by 25% at a U.S. Hitachi facility, from research prototype through full production deployment.",
+          "bullets": [
+            "<strong>25%</strong> reduction in a critical bottleneck operation time",
+            "<strong>500+ hours/year</strong> of on-site factory presence and data collection",
+            "Research roadmap and technical strategy defined with engineering, IP/legal, and leadership teams"
+          ]
+        },
+        {
+          "tag": "Automotive OEM data",
+          "title": "Deep learning for manufacturing quality and warranty",
+          "text": "Researched, designed, and deployed AI/ML systems, including deep learning (RNN-LSTM, CNN, Transformers) and classical ML (SVM, decision trees), on real-world automotive OEM data to solve manufacturing quality and warranty challenges.",
+          "bullets": []
+        },
+        {
+          "tag": "Multimodal perception",
+          "title": "Wearable sensors + computer vision for worker performance and safety",
+          "text": "Multimodal perception systems integrating wearable sensors and computer vision (pose estimation, action recognition) to assess worker performance, productivity, and safety, achieving >90% classification accuracy across deployment environments.",
+          "bullets": []
+        },
+        {
+          "tag": "Patents · 4 filings",
+          "title": "Agentic AI, generative AI, and wearable sensing",
+          "text": "Inventor on 4 U.S. patent filings: a published smart-sole wearable sensing architecture (US 2026/0198641 A1, with Q. Zhou), agentic AI & generative AI for automated job-instruction creation (under USPTO review, 2025), and two applications in preparation on agentic AI, generative AI, and sensor-based human performance assessment.",
+          "bullets": []
+        },
+        {
+          "tag": "Clinical AI · OHSU",
+          "title": "Wearable-sensor AI for Parkinson's disease",
+          "text": "Concurrent part-time research developing sensor-based deep learning models to analyze freezing of gait and fall risk in Parkinson's disease, with clinicians and medical domain experts.",
+          "bullets": []
+        },
+        {
+          "tag": "Evaluation · Production monitoring",
+          "title": "Rigorous statistical evaluation for deployment",
+          "text": "Built evaluation frameworks with error estimation, subgroup performance analysis, and production monitoring to ensure robustness across heterogeneous populations and meet strict accuracy requirements for deployment.",
+          "bullets": []
+        },
+        {
+          "tag": "Early work · Aster Pet Sciences",
+          "title": "Real-time IMU activity recognition, shipped",
+          "text": "Led a small team to design, collect data for, and ship a real-time IMU-based activity recognition system (SVM, >70% accuracy) in 2021; first full ownership of an AI research-to-product pipeline.",
+          "bullets": []
+        }
+      ],
+      "publications": ["insoles", "exo", "fatigue", "lbp", "fallml", "turning", "fallreview", "inpatient", "hf"]
+    }
+  }
+}
