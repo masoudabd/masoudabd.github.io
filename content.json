@@ -20,7 +20,7 @@
     "publications": "27+",
     "citations": "650+",
     "h_index": "14",
-    "patents": "4",
+    "patents": "5",
     "patents_published": "1"
   },
 
@@ -86,8 +86,8 @@
       "number": "",
       "date": "2025",
       "inventors": "Abdollahi, M., et al.",
-      "title": "Agentic AI & generative AI for automated job-instruction creation",
-      "note": "U.S. Patent Application, Hitachi America, Ltd.",
+      "title": "Agentic AI & generative AI system for industrial operations",
+      "note": "U.S. Patent Application, Hitachi America, Ltd. Details withheld pending publication.",
       "url": ""
     },
     {
@@ -95,7 +95,7 @@
       "number": "",
       "date": "2026",
       "inventors": "Abdollahi, M., et al.",
-      "title": "Agentic AI, generative AI, and sensor-based human performance assessment (2 applications)",
+      "title": "Agentic AI, generative AI, sensor-based human performance assessment, and training (3 applications)",
       "note": "U.S. Patent Applications in preparation with Hitachi America, Ltd. IP & Legal.",
       "url": ""
     }
@@ -172,7 +172,7 @@
     "wearables": {
       "label": "Wearable & Health ML",
       "title": "Masoud Abdollahi, Ph.D. | Machine Learning for Wearable & Clinical Time-Series Data",
-      "description": "Senior R&D Scientist with a Ph.D. building production ML on wearable and clinical time-series data: IMU, physiological, and sensor streams. 27+ publications, 650+ citations, 4 patent filings (1 published).",
+      "description": "Senior R&D Scientist with a Ph.D. building production ML on wearable and clinical time-series data: IMU, physiological, and sensor streams. 27+ publications, 650+ citations, 5 patent filings (1 published).",
       "resume": "assets/resume/Masoud_Abdollahi_Resume_Wearable_Health_ML.pdf",
       "kicker": "Senior R&D Scientist · Wearable & health machine learning",
       "headline": "Machine learning for <em>wearable and clinical time-series data</em>, from research to production.",
@@ -180,12 +180,12 @@
       "metrics": [
         { "value": "27+", "label": "peer-reviewed publications" },
         { "value": "650+", "label": "citations · Google Scholar" },
-        { "value": "4", "label": "patent filings · 1 published" },
+        { "value": "5", "label": "patent filings · 1 published" },
         { "value": ">90%", "label": "accuracy, wearable + vision models in the field" }
       ],
       "summary": [
         "ML Research Scientist with a Ph.D. and 4+ years developing and commercializing production ML systems on wearable and clinical time-series data. Deep expertise in deep learning, time-series analysis, signal processing, and multimodal fusion across IMU, physiological, and sensor streams: the core data modalities behind modern wearable health products.",
-        "Track record spanning the full model lifecycle, from exploratory research and pipeline design to rigorous statistical validation and production deployment in high-stakes healthcare and real-world environments. 27+ peer-reviewed publications, 650+ citations, and 4 patent filings (1 published). Currently building clinical AI models for Parkinson's disease on wearable-derived time-series data at Oregon Health & Science University."
+        "Track record spanning the full model lifecycle, from exploratory research and pipeline design to rigorous statistical validation and production deployment in high-stakes healthcare and real-world environments. 27+ peer-reviewed publications, 650+ citations, and 5 patent filings (1 published). Currently building clinical AI models for Parkinson's disease on wearable-derived time-series data at Oregon Health & Science University."
       ],
       "expertise": [
         { "name": "Wearable & time-series ML", "items": "IMU / accelerometer / gyroscope pipelines, physiological waveform analysis, signal processing (filtering, denoising, feature engineering), temporal deep learning (Transformers, RNN-LSTM, 1D-CNN), windowing & segmentation, robust validation on heterogeneous subject populations" },
@@ -266,12 +266,12 @@
       "metrics": [
         { "value": "27+", "label": "peer-reviewed publications" },
         { "value": "650+", "label": "citations · Google Scholar" },
-        { "value": "4", "label": "patent filings · 1 published" },
+        { "value": "5", "label": "patent filings · 1 published" },
         { "value": "25%", "label": "cycle-time reduction, VLM + GenAI system in production" }
       ],
       "summary": [
         "AI/ML Research Scientist with a Ph.D. and 4+ years building and shipping production AI systems in high-stakes, data-rich environments: healthcare and industrial settings where accuracy and reliability are non-negotiable. Deep hands-on expertise in large language models, vision-language models, generative AI, self-supervised learning, and multimodal deep learning on time-series and imaging data.",
-        "Track record of closing the loop from fundamental research to production deployment, with 27+ peer-reviewed publications, 650+ citations, and 4 patent filings (1 published). Currently applying clinical AI models to wearable data from people with Parkinson's disease at Oregon Health & Science University."
+        "Track record of closing the loop from fundamental research to production deployment, with 27+ peer-reviewed publications, 650+ citations, and 5 patent filings (1 published). Currently applying clinical AI models to wearable data from people with Parkinson's disease at Oregon Health & Science University."
       ],
       "expertise": [
         { "name": "Generative & foundation models", "items": "LLMs, VLMs, large-scale pretraining, prompt tuning / prompt engineering, fine-tuning, distillation, quantization, RAG" },
@@ -316,8 +316,8 @@
         },
         {
           "tag": "Patents · Agentic AI & GenAI",
-          "title": "Agentic AI & generative AI for automated job-instruction creation",
-          "text": "U.S. patent application under USPTO review (2025), plus two applications in preparation on agentic AI, generative AI, and sensor-based human performance assessment. Inventor on all 4 filings, including the published smart-sole wearable patent (US 2026/0198641 A1).",
+          "title": "Agentic AI & generative AI system for industrial operations",
+          "text": "U.S. patent application under USPTO review (2025), plus three applications in preparation on agentic AI, generative AI, sensor-based human performance assessment, and training. Inventor on all 5 filings, including the published smart-sole wearable patent (US 2026/0198641 A1).",
           "bullets": []
         },
         {
@@ -339,7 +339,7 @@
     "research": {
       "label": "Research Scientist",
       "title": "Masoud Abdollahi, Ph.D. | Research Scientist, Machine Learning & Multimodal AI",
-      "description": "Research Scientist with a Ph.D. and 4+ years of industry experience building and deploying ML systems at scale: deep learning, foundation models, vision-language models, multimodal AI. 27+ publications, 650+ citations, 4 patent filings.",
+      "description": "Research Scientist with a Ph.D. and 4+ years of industry experience building and deploying ML systems at scale: deep learning, foundation models, vision-language models, multimodal AI. 27+ publications, 650+ citations, 5 patent filings.",
       "resume": "assets/resume/Masoud_Abdollahi_Resume_Research_Scientist.pdf",
       "kicker": "Senior R&D Scientist · Machine learning research",
       "headline": "Research that ships: <em>from hypothesis to peer-reviewed publication to production</em>.",
@@ -347,12 +347,12 @@
       "metrics": [
         { "value": "27+", "label": "peer-reviewed publications" },
         { "value": "650+", "label": "citations · h-index 14" },
-        { "value": "4", "label": "patent filings · 1 published" },
+        { "value": "5", "label": "patent filings · 1 published" },
         { "value": "25%", "label": "bottleneck cut by a VLM + GenAI system in production" }
       ],
       "summary": [
         "Research Scientist with a Ph.D. and 4+ years of industry experience building and deploying machine learning systems at scale. Expert in deep learning (CNNs, RNNs/LSTMs, Transformers), foundation models, vision-language models, and multimodal AI, applied to real manufacturing environments with measurable product impact.",
-        "Author of 27+ peer-reviewed publications (650+ citations) and 4 patent filings (1 published), with a track record of leading research agendas end-to-end from prototype to production. Experienced contributor to the broader research community through publications, peer review, and cross-institutional collaboration."
+        "Author of 27+ peer-reviewed publications (650+ citations) and 5 patent filings (1 published), with a track record of leading research agendas end-to-end from prototype to production. Experienced contributor to the broader research community through publications, peer review, and cross-institutional collaboration."
       ],
       "expertise": [
         { "name": "Deep learning", "items": "Transformers, CNN, RNN-LSTM, 1D-CNN, self-supervised & semi-supervised learning, transfer learning, multimodal fusion, foundation models, fine-tuning, distillation, quantization" },
@@ -429,12 +429,12 @@
       "metrics": [
         { "value": "27+", "label": "peer-reviewed publications" },
         { "value": "650+", "label": "citations · Google Scholar" },
-        { "value": "4", "label": "patent filings · 1 published" },
+        { "value": "5", "label": "patent filings · 1 published" },
         { "value": "25%", "label": "bottleneck cut by a VLM + GenAI system in production" }
       ],
       "summary": [
         "AI/ML Research Scientist with a Ph.D. and 4+ years of industry experience designing and deploying state-of-the-art machine learning systems for automotive and industrial applications. Demonstrated expertise in foundation models, vision-language models (VLMs), generative AI, deep learning (CNNs, RNNs/LSTMs, Transformers), and self-supervised learning, with direct application to computer vision, multimodal perception, and real-world deployment.",
-        "Proven track record of end-to-end AI system development from research to production, with 4 patent filings (1 published), 27+ peer-reviewed publications (650+ citations), and cross-functional collaboration across engineering, IP, and leadership teams."
+        "Proven track record of end-to-end AI system development from research to production, with 5 patent filings (1 published), 27+ peer-reviewed publications (650+ citations), and cross-functional collaboration across engineering, IP, and leadership teams."
       ],
       "expertise": [
         { "name": "Foundation models & generative AI", "items": "LLMs, VLMs, prompt engineering, fine-tuning, distillation, quantization, RAG, Azure OpenAI Foundry" },
@@ -468,9 +468,9 @@
           "bullets": []
         },
         {
-          "tag": "Patents · 4 filings",
+          "tag": "Patents · 5 filings",
           "title": "Agentic AI, generative AI, and wearable sensing",
-          "text": "Inventor on 4 U.S. patent filings: a published smart-sole wearable sensing architecture (US 2026/0198641 A1, with Q. Zhou), agentic AI & generative AI for automated job-instruction creation (under USPTO review, 2025), and two applications in preparation on agentic AI, generative AI, and sensor-based human performance assessment.",
+          "text": "Inventor on 5 U.S. patent filings: a published smart-sole wearable sensing architecture (US 2026/0198641 A1, with Q. Zhou), an agentic AI & generative AI system for industrial operations (under USPTO review, 2025), and three applications in preparation on agentic AI, generative AI, sensor-based human performance assessment, and training.",
           "bullets": []
         },
         {
