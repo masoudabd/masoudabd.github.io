@@ -274,9 +274,9 @@
         "Track record of closing the loop from fundamental research to production deployment, with 27+ peer-reviewed publications, 650+ citations, and 5 patent filings (1 published). Currently applying clinical AI models to wearable data from people with Parkinson's disease at Oregon Health & Science University."
       ],
       "expertise": [
-        { "name": "Generative & foundation models", "items": "LLMs, VLMs, large-scale pretraining, prompt tuning / prompt engineering, fine-tuning, distillation, quantization, RAG" },
+        { "name": "Generative & foundation models", "items": "LLMs, VLMs, prompt tuning / prompt engineering, fine-tuning, distillation, quantization, RAG" },
         { "name": "Deep learning architectures", "items": "Transformers, CNN, RNN-LSTM, semi-supervised & self-supervised learning, transfer learning, multimodal fusion" },
-        { "name": "Healthcare & clinical data", "items": "Time-series waveform analysis (IMU, EEG, clinical sensors), electronic medical records, clinical report processing, fall-risk and neurological assessment models" },
+        { "name": "Healthcare & clinical data", "items": "Time-series waveform analysis (IMU, clinical sensors), electronic medical records, clinical report processing, fall-risk and neurological assessment models" },
         { "name": "Frameworks & tools", "items": "PyTorch, TensorFlow, Hugging Face Transformers, Azure OpenAI Foundry, Azure ML, OpenCV, MATLAB, SQL, Python, C++" },
         { "name": "Responsible AI & MLOps", "items": "Robustness evaluation, statistical error estimation, end-to-end ML pipelines, production deployment, large-scale dataset design and curation" }
       ],
