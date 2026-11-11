@@ -743,5 +743,59 @@
       "date": "Jun 2026",
       "text": "Promoted to Senior R&D Scientist, Hitachi America"
     }
-  ]
+  ],
+  "approach": {
+    "label": "Approach",
+    "title": "From sensor to deployment",
+    "note": "The same five steps run through my wearable, clinical, and industrial work.",
+    "steps": [
+      {
+        "title": "Sense",
+        "text": "Wearable IMUs, smart insoles, cameras, and clinical tests, collected in factories, hospitals, and labs.",
+        "tags": [
+          "IMU",
+          "Pressure insoles",
+          "Vision",
+          "500+ h/yr field data"
+        ]
+      },
+      {
+        "title": "Process",
+        "text": "Signal processing that turns raw streams into reliable inputs: filtering, denoising, segmentation, and feature engineering.",
+        "tags": [
+          "Filtering",
+          "Windowing",
+          "Features"
+        ]
+      },
+      {
+        "title": "Model",
+        "text": "Deep learning and generative AI matched to the data: temporal models, multimodal fusion, and vision-language models.",
+        "tags": [
+          "Transformers",
+          "RNN-LSTM",
+          "VLMs",
+          "GenAI"
+        ]
+      },
+      {
+        "title": "Validate",
+        "text": "Statistics built for real populations: error estimation, subgroup analysis, and cross-subject generalization.",
+        "tags": [
+          "Error estimation",
+          "Subgroups",
+          "Calibration"
+        ]
+      },
+      {
+        "title": "Deploy",
+        "text": "Production systems with monitoring, running in a live facility and in research alongside clinicians.",
+        "tags": [
+          "25% cycle-time cut",
+          "Monitoring"
+        ]
+      }
+    ]
+  },
+  "figures": []
 }

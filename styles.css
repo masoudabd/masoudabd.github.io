@@ -1,5 +1,5 @@
-/* Masoud Abdollahi — personal site
-   Light, editorial, single accent. Serif display + sans body. */
+/* Masoud Abdollahi, personal site.
+   Editorial layout, serif display + sans body; colored section themes since Nov 2026. */
 
 :root {
   --bg: #faf9f6;
@@ -176,7 +176,6 @@ h1 em { font-style: italic; color: var(--accent-ink); }
 
 /* ---------- Sections ---------- */
 .band { padding: 72px 0; }
-.band + .band { border-top: 1px solid var(--rule); }
 .band-alt { background: var(--surface-2); }
 .two-col {
   display: grid; grid-template-columns: 220px minmax(0, 1fr);
@@ -330,6 +329,121 @@ h3.sub {
 .site-footer a { color: var(--muted); margin-left: auto; }
 .site-footer a:hover { color: var(--accent-ink); }
 
+/* ---------- Color themes (Nov 2026) ---------- */
+:root {
+  --navy: #0d1b2a;
+  --c1: #0f766e;  /* teal   */
+  --c2: #0369a1;  /* blue   */
+  --c3: #4f46e5;  /* indigo */
+  --c4: #b45309;  /* amber  */
+  --c5: #be123c;  /* rose   */
+}
+.band { --sec: var(--accent-ink); }
+.band .label, .theme-hero .kicker { color: var(--sec); }
+.theme-white  { background: #ffffff; }
+.theme-mint   { background: #eaf6f2; --sec: #0b5f59; }
+.theme-cream  { background: #fbf5ea; --sec: #9a4d07; }
+.theme-indigo { background: #eef0fb; --sec: #4338ca; }
+.theme-gold   { background: #fcf5e1; --sec: #8a5a00; }
+.theme-sky    { background: #e9f3fa; --sec: #075985; }
+
+/* Hero: soft color wash */
+.theme-hero {
+  background:
+    radial-gradient(900px 420px at 92% -8%, rgba(15, 118, 110, 0.20), transparent 62%),
+    radial-gradient(700px 380px at -8% 30%, rgba(79, 70, 229, 0.10), transparent 60%),
+    linear-gradient(180deg, #f4faf8 0%, #faf9f6 100%);
+  padding-bottom: 56px;
+}
+.theme-hero .metrics {
+  background: linear-gradient(115deg, #0d1b2a 0%, #10324a 48%, #0f766e 100%);
+  border: 0; border-radius: 20px; padding: 28px 32px;
+  box-shadow: 0 24px 48px -28px rgba(13, 27, 42, 0.6);
+}
+.theme-hero .metrics li { position: relative; padding-top: 14px; }
+.theme-hero .metrics li::before {
+  content: ""; position: absolute; top: 0; left: 0; width: 34px; height: 4px; border-radius: 4px; background: #5eead4;
+}
+.theme-hero .metrics li:nth-child(2)::before { background: #7dd3fc; }
+.theme-hero .metrics li:nth-child(3)::before { background: #a5b4fc; }
+.theme-hero .metrics li:nth-child(4)::before { background: #fcd34d; }
+.theme-hero .metric-value { color: #ffffff; }
+.theme-hero .metric-label { color: rgba(255, 255, 255, 0.74); }
+
+/* Dark band (Work) */
+.theme-dark {
+  background:
+    radial-gradient(800px 360px at 100% 0%, rgba(15, 118, 110, 0.35), transparent 60%),
+    linear-gradient(160deg, #0d1b2a 0%, #10283a 60%, #0c3634 100%);
+  --sec: #5eead4;
+}
+.theme-dark h2 { color: #ffffff; }
+.theme-dark .section-note { color: rgba(255, 255, 255, 0.72); }
+.theme-dark .card { border-color: transparent; box-shadow: 0 18px 40px -24px rgba(0, 0, 0, 0.7); }
+.theme-dark .card:hover { border-color: rgba(94, 234, 212, 0.6); }
+
+/* Colored accents on cards, cycling teal / blue / indigo / amber / rose */
+.cards .card { border-top: 4px solid var(--card-c, var(--c1)); }
+.cards .card:nth-child(5n+2) { --card-c: var(--c2); }
+.cards .card:nth-child(5n+3) { --card-c: var(--c3); }
+.cards .card:nth-child(5n+4) { --card-c: var(--c4); }
+.cards .card:nth-child(5n+5) { --card-c: var(--c5); }
+.cards .card .tag { color: var(--card-c, var(--c1)); }
+.cards .card .bullets li::before { background: var(--card-c, var(--c1)); }
+.card-flagship { background: linear-gradient(135deg, #ffffff 0%, #e3f3ef 100%); }
+
+/* Section-specific touches */
+.theme-cream .pubs li::marker { color: var(--c4); }
+.theme-cream .pub-title:hover { color: var(--c4); }
+.theme-indigo .patents li { border-left: 4px solid var(--c3); }
+.theme-indigo .patents li:first-child { border-left-color: var(--c1); }
+.theme-gold .honor-year { color: var(--sec); font-weight: 600; }
+.theme-mint .expertise > div { background: rgba(255, 255, 255, 0.7); border: 1px solid rgba(15, 118, 110, 0.14); border-radius: 12px; padding: 14px 16px; }
+.role { border-top: 4px solid var(--c1); }
+.role + .role { border-top-color: var(--c3); }
+
+/* Contact: teal band */
+.theme-teal {
+  background: linear-gradient(135deg, #0b3d3a 0%, #0f766e 55%, #0e7490 100%);
+  color: #ffffff; --sec: #a7f3d0;
+}
+.theme-teal h2, .theme-teal .contact-lede { color: #ffffff; }
+.theme-teal .col-note { color: rgba(255, 255, 255, 0.8); }
+.theme-teal .contact-grid a { background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.22); color: #ffffff; box-shadow: none; }
+.theme-teal .contact-grid a:hover { background: rgba(255, 255, 255, 0.18); border-color: #ffffff; color: #ffffff; }
+.theme-teal .contact-k { color: #a7f3d0; }
+.site-footer { background: var(--navy); color: rgba(255, 255, 255, 0.65); border-top: 0; }
+.site-footer a { color: rgba(255, 255, 255, 0.75); }
+.site-footer a:hover { color: #ffffff; }
+
+/* Pipeline (Approach) */
+.pipeline { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; counter-reset: none; }
+.step {
+  --sc: var(--c1);
+  position: relative; background: #ffffff; border: 1px solid var(--rule); border-radius: var(--radius);
+  padding: 20px 18px 18px; box-shadow: var(--shadow); border-top: 5px solid var(--sc);
+}
+.step-2 { --sc: var(--c2); } .step-3 { --sc: var(--c3); } .step-4 { --sc: var(--c4); } .step-5 { --sc: var(--c5); }
+.step-num { display: block; font-family: var(--serif); font-weight: 600; font-size: 1.6rem; line-height: 1; color: var(--sc); margin-bottom: 10px; }
+.step h3 { font-size: 1.15rem; margin-bottom: 6px; }
+.step p { font-size: 0.9rem; color: var(--ink-2); line-height: 1.5; margin: 0 0 12px; }
+.step-tags { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.step-tags li { font-size: 0.74rem; font-weight: 600; color: var(--sc); background: color-mix(in srgb, var(--sc) 10%, #ffffff); border-radius: 999px; padding: 3px 9px; }
+.step:not(:last-child)::after {
+  content: ""; position: absolute; right: -13px; top: 34px; width: 10px; height: 10px;
+  border-top: 2px solid var(--rule-strong); border-right: 2px solid var(--rule-strong); transform: rotate(45deg);
+}
+
+/* Figures gallery */
+.figs { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 22px; }
+.fig { margin: 0; background: #ffffff; border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; border: 1px solid var(--rule); }
+.fig-img { display: block; background: #ffffff; padding: 14px; border-bottom: 1px solid var(--rule); }
+.fig-img img { width: 100%; height: 240px; object-fit: contain; }
+.fig figcaption { padding: 14px 18px 16px; font-size: 0.9rem; line-height: 1.5; color: var(--ink-2); }
+.fig figcaption strong { display: block; font-family: var(--serif); font-size: 1.05rem; margin-bottom: 4px; }
+.fig-credit { display: block; margin-top: 8px; font-size: 0.8rem; color: var(--muted); }
+.fig-credit a { color: var(--sec); }
+
 /* ---------- Responsive ---------- */
 @media (max-width: 960px) {
   .two-col { grid-template-columns: 190px minmax(0, 1fr); gap: 36px; }
@@ -345,6 +459,12 @@ h3.sub {
   .band { padding: 52px 0; }
   .two-col { grid-template-columns: 1fr; gap: 20px; }
   .cards, .roles, .expertise, .contact-grid { grid-template-columns: 1fr; }
+  .pipeline { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .step::after { display: none; }
+  .theme-hero .metrics { padding: 22px 22px; }
+}
+@media (max-width: 560px) {
+  .pipeline { grid-template-columns: 1fr; }
 }
 @media (max-width: 720px) {
   .site-nav { display: none; }
@@ -358,6 +478,8 @@ h3.sub {
   .site-header, .cta-row, .site-footer a, .skip { display: none !important; }
   body { background: #fff; color: #000; font-size: 11pt; }
   .band { padding: 18pt 0; }
-  .card, .role, .patents li, .contact-grid a { box-shadow: none; }
+  .card, .role, .patents li, .contact-grid a, .step, .fig { box-shadow: none; }
+  .theme-dark, .theme-teal, .theme-hero .metrics, .site-footer { background: #fff !important; color: #000 !important; }
+  .theme-dark h2, .theme-teal h2, .theme-hero .metric-value, .theme-hero .metric-label { color: #000 !important; }
   a { color: inherit; }
 }

@@ -156,6 +156,67 @@ def render_honors(honors):
     )
 
 
+def render_approach(a):
+    """Colored step-by-step pipeline ("From sensor to deployment")."""
+    if not a:
+        return ""
+    steps = []
+    for i, s in enumerate(a["steps"], 1):
+        tags = "".join(f'<li>{esc(t)}</li>' for t in s.get("tags", []))
+        steps.append(
+            f'      <li class="step step-{i}">\n'
+            f'        <span class="step-num" aria-hidden="true">{i:02d}</span>\n'
+            f'        <h3>{esc(s["title"])}</h3>\n'
+            f'        <p>{esc(s["text"])}</p>\n'
+            f'        <ul class="step-tags">{tags}</ul>\n'
+            f"      </li>"
+        )
+    return (
+        '<section class="band theme-white" id="approach">\n'
+        '  <div class="wrap">\n'
+        '    <div class="section-head">\n'
+        f'      <p class="label">{esc(a["label"])}</p>\n'
+        f'      <h2>{esc(a["title"])}</h2>\n'
+        f'      <p class="section-note">{esc(a["note"])}</p>\n'
+        '    </div>\n'
+        '    <ol class="pipeline">\n' + "\n".join(steps) + "\n    </ol>\n"
+        "  </div>\n"
+        "</section>"
+    )
+
+
+def render_figures(figs):
+    """Figure gallery from paper figures. Renders nothing until content.json lists figures."""
+    if not figs:
+        return ""
+    items = []
+    for f in figs:
+        credit = esc(f.get("credit", ""))
+        if f.get("doi"):
+            credit = f'<a href="https://doi.org/{attr(f["doi"])}" rel="noopener">{credit}</a>'
+        items.append(
+            f'      <figure class="fig">\n'
+            f'        <a class="fig-img" href="{attr(f["src"])}"><img src="{attr(f["src"])}" alt="{attr(f["alt"])}" loading="lazy"'
+            + (f' width="{int(f["w"])}" height="{int(f["h"])}"' if f.get("w") else "")
+            + f'></a>\n'
+            f'        <figcaption><strong>{esc(f["title"])}</strong> {esc(f.get("caption", ""))}'
+            f'<span class="fig-credit">{credit}</span></figcaption>\n'
+            f"      </figure>"
+        )
+    return (
+        '<section class="band theme-sky" id="figures">\n'
+        '  <div class="wrap">\n'
+        '    <div class="section-head">\n'
+        '      <p class="label">Research in pictures</p>\n'
+        '      <h2>Figures from my papers</h2>\n'
+        '      <p class="section-note">Selected figures, reproduced from the published articles with credit.</p>\n'
+        '    </div>\n'
+        '    <div class="figs">\n' + "\n".join(items) + "\n    </div>\n"
+        "  </div>\n"
+        "</section>"
+    )
+
+
 def render_highlights(items):
     out = []
     for h in items:
@@ -233,6 +294,8 @@ def build():
         ),
         "roles": render_roles(data["roles"]),
         "highlights": render_highlights(data.get("highlights", [])),
+        "approach": render_approach(data.get("approach")),
+        "figures_section": render_figures(data.get("figures", [])),
         "patents": render_patents(data["patents"]),
         "education": render_education(data["education"]),
         "honors": render_honors(data["honors"]),
