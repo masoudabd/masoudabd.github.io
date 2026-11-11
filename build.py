@@ -302,7 +302,7 @@ def build():
         "service": esc(data["service"]),
         "variants_meta": json.dumps(variants_meta, ensure_ascii=False).replace("</", "<\\/"),
         "jsonld": json.dumps(jsonld, ensure_ascii=False, indent=2).replace("</", "<\\/"),
-        "build_stamp": now.strftime("%Y%m%d"),
+        "build_stamp": __import__("hashlib").md5((ROOT / "styles.css").read_bytes() + (ROOT / "site.js").read_bytes()).hexdigest()[:10],
         "year": str(now.year),
         "updated": now.strftime("%B %Y"),
     }
