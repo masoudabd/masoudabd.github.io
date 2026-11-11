@@ -1,8 +1,6 @@
 {
   "_comment": "Single source of truth for the site. Edit this file, then run `python build.py` to regenerate index.html. Every fact here must be traceable to _Master/Master_Profile.md in the Resume and CV workspace. Inline markup allowed in text fields: <em>, <strong>, <br>.",
-
   "default_focus": "wearables",
-
   "site": {
     "url": "https://masoudabd.github.io/",
     "repo": "https://github.com/masoudabd/masoudabd.github.io",
@@ -12,18 +10,16 @@
     "linkedin": "https://www.linkedin.com/in/masoud-abdollahi-a1801753/",
     "scholar": "https://scholar.google.com/citations?user=6AYrcZMAAAAJ&hl=en",
     "location": "Michigan, USA · open to relocation",
-    "hero_honor": "3rd Prize, 2025 Hitachi Global Technology Award · global, company-wide R&D recognition",
+    "hero_honor": "Winner, 2026 Hitachi America R&D AI Data Challenge · 3rd Prize, 2025 Hitachi Global Technology Award",
     "og_image": "assets/og-image.jpg"
   },
-
   "stats": {
-    "publications": "27+",
-    "citations": "650+",
-    "h_index": "14",
+    "publications": "28+",
+    "citations": "700+",
+    "h_index": "15",
     "patents": "5",
     "patents_published": "1"
   },
-
   "roles": [
     {
       "title": "Senior R&D Scientist",
@@ -40,7 +36,6 @@
       "note": "Wearable-sensor AI for freezing of gait and fall risk in Parkinson's disease, alongside clinicians."
     }
   ],
-
   "education": [
     {
       "degree": "Ph.D., Mechanical and Industrial Engineering",
@@ -61,16 +56,29 @@
       "note": ""
     }
   ],
-
   "honors": [
-    { "year": "2025", "text": "3rd Prize, Hitachi Global Technology Award (global, company-wide recognition for R&D contribution)" },
-    { "year": "2018", "text": "Ranked 1st, Machine Learning Competition, Dept. of Computer Engineering, RIT (about 60 students, mostly CS/CE majors)" },
-    { "year": "2016", "text": "One of 10 global travel grants, Autumn School on Movement Science, Berlin, Germany" },
-    { "year": "2015", "text": "Ranked 1st among M.Sc. students in Biomechanics, Sharif University of Technology" }
+    {
+      "year": "2026",
+      "text": "Winner, Hitachi America R&D AI Data Challenge (team GridMindX): day-ahead electricity-price forecasting for a 243-bus power-grid benchmark, trained on only 30 labeled days"
+    },
+    {
+      "year": "2025",
+      "text": "3rd Prize, Hitachi Global Technology Award (global, company-wide recognition for R&D contribution)"
+    },
+    {
+      "year": "2018",
+      "text": "Ranked 1st, Machine Learning Competition, Dept. of Computer Engineering, RIT (about 60 students, mostly CS/CE majors)"
+    },
+    {
+      "year": "2016",
+      "text": "One of 10 global travel grants, Autumn School on Movement Science, Berlin, Germany"
+    },
+    {
+      "year": "2015",
+      "text": "Ranked 1st among M.Sc. students in Biomechanics, Sharif University of Technology"
+    }
   ],
-
   "service": "Active peer reviewer for 15+ journals since 2017, including <em>Medical Engineering & Physics</em>, <em>Human-centric Computing & Information Sciences</em>, <em>IEEE Open Journal of the Computer Society</em>, <em>Frontiers in Bioengineering & Biotechnology</em>, <em>Ergonomics</em>, <em>Pain Medicine</em>, and <em>The Journal of Supercomputing</em>.",
-
   "patents": [
     {
       "status": "Published",
@@ -79,7 +87,7 @@
       "inventors": "Zhou, Q., & Abdollahi, M.",
       "title": "Smart Sole Architecture for Measuring Ground Reaction Force and Method for Unifying Coordinates for Feet Positions and Gestures",
       "note": "U.S. Patent Application Publication; App. No. 19/017,350, filed Jan 10, 2025; applicant Hitachi, Ltd. Wearable in-shoe pressure sensing for ground-reaction-force computation, posture-adjustment recommendations, and foot position/gesture coordinates.",
-      "url": ""
+      "url": "https://patents.google.com/patent/US20260198641A1/en"
     },
     {
       "status": "Under USPTO review",
@@ -100,8 +108,21 @@
       "url": ""
     }
   ],
-
   "publications": {
+    "pdturning": {
+      "authors": "<strong>Abdollahi, M.</strong>, Arcobelli, V. A., Mancini, M., Horak, F. B., Carlson-Kuhta, P., & Burgos, P. I.",
+      "year": "2026",
+      "title": "360° turning in individuals with mild to moderate Parkinson's disease: a clustering analysis of segmental coordination strategies",
+      "venue": "Journal of NeuroEngineering and Rehabilitation",
+      "doi": "10.1186/s12984-026-02188-z"
+    },
+    "genai_mfg": {
+      "authors": "Vidyaratne, L., Kumar, A., Zhou, Q., <strong>Abdollahi, M.</strong>, Yuan, W., Farahat, A., & Gupta, C.",
+      "year": "2026",
+      "title": "Generative AI framework for procedural knowledge extraction and training content generation in manufacturing",
+      "venue": "ASME 2026 International Manufacturing Science and Engineering Conference (MSEC), V002T07A007",
+      "doi": "10.1115/msec2026-180635"
+    },
     "insoles": {
       "authors": "<strong>Abdollahi, M.</strong>, Zhou, Q., & Yuan, W.",
       "year": "2024",
@@ -166,34 +187,62 @@
       "doi": "10.3390/s20123600"
     }
   },
-
   "variants": {
-
     "wearables": {
       "label": "Wearable & Health ML",
       "title": "Masoud Abdollahi, Ph.D. | Machine Learning for Wearable & Clinical Time-Series Data",
-      "description": "Senior R&D Scientist with a Ph.D. building production ML on wearable and clinical time-series data: IMU, physiological, and sensor streams. 27+ publications, 650+ citations, 5 patent filings (1 published).",
+      "description": "Senior R&D Scientist with a Ph.D. building production ML on wearable and clinical time-series data: IMU, physiological, and sensor streams. 28+ publications, 700+ citations, 5 patent filings (1 published).",
       "resume": "assets/resume/Masoud_Abdollahi_Resume_Wearable_Health_ML.pdf",
       "kicker": "Senior R&D Scientist · Wearable & health machine learning",
       "headline": "Machine learning for <em>wearable and clinical time-series data</em>, from research to production.",
       "lede": "Ph.D. researcher with 4+ years developing and commercializing production ML systems on IMU, physiological, and sensor streams. I take models through the full lifecycle: exploratory research, pipeline design, rigorous statistical validation, and deployment in real-world and clinical environments.",
       "metrics": [
-        { "value": "27+", "label": "peer-reviewed publications" },
-        { "value": "650+", "label": "citations · Google Scholar" },
-        { "value": "5", "label": "patent filings · 1 published" },
-        { "value": ">90%", "label": "accuracy, wearable + vision models in the field" }
+        {
+          "value": "28+",
+          "label": "peer-reviewed publications"
+        },
+        {
+          "value": "700+",
+          "label": "citations · Google Scholar"
+        },
+        {
+          "value": "5",
+          "label": "patent filings · 1 published"
+        },
+        {
+          "value": ">90%",
+          "label": "accuracy, wearable + vision models in the field"
+        }
       ],
       "summary": [
         "ML Research Scientist with a Ph.D. and 4+ years developing and commercializing production ML systems on wearable and clinical time-series data. Deep expertise in deep learning, time-series analysis, signal processing, and multimodal fusion across IMU, physiological, and sensor streams: the core data modalities behind modern wearable health products.",
-        "Track record spanning the full model lifecycle, from exploratory research and pipeline design to rigorous statistical validation and production deployment in high-stakes healthcare and real-world environments. 27+ peer-reviewed publications, 650+ citations, and 5 patent filings (1 published). Currently building clinical AI models for Parkinson's disease on wearable-derived time-series data at Oregon Health & Science University."
+        "Track record spanning the full model lifecycle, from exploratory research and pipeline design to rigorous statistical validation and production deployment in high-stakes healthcare and real-world environments. 28+ peer-reviewed publications, 700+ citations, and 5 patent filings (1 published). Currently building clinical AI models for Parkinson's disease on wearable-derived time-series data at Oregon Health & Science University."
       ],
       "expertise": [
-        { "name": "Wearable & time-series ML", "items": "IMU / accelerometer / gyroscope pipelines, physiological waveform analysis, signal processing (filtering, denoising, feature engineering), temporal deep learning (Transformers, RNN-LSTM, 1D-CNN), windowing & segmentation, robust validation on heterogeneous subject populations" },
-        { "name": "Deep learning", "items": "Transformers, CNN, RNN-LSTM, self-supervised & semi-supervised learning, transfer learning, multimodal fusion, foundation models, fine-tuning, distillation" },
-        { "name": "Healthcare & clinical data", "items": "Wearable sensor time-series, clinical assessments, EMR / clinical report processing, fall-risk and neurological impairment modeling, multi-subject longitudinal studies" },
-        { "name": "Statistical modeling & validation", "items": "Hypothesis testing, error estimation, performance monitoring, cross-subject generalization, A/B-style model comparison, calibration, drift detection" },
-        { "name": "Programming & frameworks", "items": "Python (5+ years), SQL (5+ years), PyTorch, TensorFlow, Hugging Face Transformers, scikit-learn, OpenCV, MATLAB, C++" },
-        { "name": "MLOps & deployment", "items": "End-to-end ML pipelines, large-scale dataset curation, containerized deployment, model monitoring, Azure ML / Azure OpenAI Foundry, reproducible experimentation" }
+        {
+          "name": "Wearable & time-series ML",
+          "items": "IMU / accelerometer / gyroscope pipelines, physiological waveform analysis, signal processing (filtering, denoising, feature engineering), temporal deep learning (Transformers, RNN-LSTM, 1D-CNN), windowing & segmentation, robust validation on heterogeneous subject populations"
+        },
+        {
+          "name": "Deep learning",
+          "items": "Transformers, CNN, RNN-LSTM, self-supervised & semi-supervised learning, transfer learning, multimodal fusion, foundation models, fine-tuning, distillation"
+        },
+        {
+          "name": "Healthcare & clinical data",
+          "items": "Wearable sensor time-series, clinical assessments, EMR / clinical report processing, fall-risk and neurological impairment modeling, multi-subject longitudinal studies"
+        },
+        {
+          "name": "Statistical modeling & validation",
+          "items": "Hypothesis testing, error estimation, performance monitoring, cross-subject generalization, A/B-style model comparison, calibration, drift detection"
+        },
+        {
+          "name": "Programming & frameworks",
+          "items": "Python (5+ years), SQL (5+ years), PyTorch, TensorFlow, Hugging Face Transformers, scikit-learn, OpenCV, MATLAB, C++"
+        },
+        {
+          "name": "MLOps & deployment",
+          "items": "End-to-end ML pipelines, large-scale dataset curation, containerized deployment, model monitoring, Azure ML / Azure OpenAI Foundry, reproducible experimentation"
+        }
       ],
       "work": [
         {
@@ -221,7 +270,8 @@
           "title": "Wearable-sensor AI for Parkinson's disease",
           "text": "Developing sensor-based deep learning models to analyze freezing of gait and fall risk in Parkinson's disease, applying time-series ML and signal processing to wearable-derived data in a research-to-deployment pipeline alongside clinicians and medical domain experts.",
           "bullets": [
-            "Bridging quantitative modeling with clinical knowledge for patient-centered model design, validation strategy, and interpretation of health-relevant signals"
+            "Bridging quantitative modeling with clinical knowledge for patient-centered model design, validation strategy, and interpretation of health-relevant signals",
+            "First-author 2026 paper in <em>Journal of NeuroEngineering and Rehabilitation</em> on clustering segmental coordination strategies during 360° turns in Parkinson's disease"
           ]
         },
         {
@@ -240,6 +290,15 @@
           ]
         },
         {
+          "tag": "Competition win · Hitachi America R&D AI Data Challenge",
+          "title": "Physics-informed ML for power-grid price forecasting",
+          "text": "Won the company-wide AI Data Challenge (team GridMindX): forecast day-ahead hourly electricity prices (LMP) at all 243 buses of the WECC-240 grid benchmark, scored on accuracy, data efficiency, and innovation. Paired power-flow physics with a gradient-boosted ensemble, trained on only 30 labeled days.",
+          "bullets": [
+            "Physics-derived features (optimal-power-flow and unit-commitment surrogates) carried most of the signal; the learned ensemble corrected the residual",
+            "Fully reproducible one-command package that regenerates the 489,888-row submission byte for byte"
+          ]
+        },
+        {
           "tag": "Transformers · Structured data",
           "title": "Transformer models for structured operational and report data",
           "text": "Designed and built Transformer-based models on structured operational and report data for classification, anomaly detection, and quality assessment; pipelines directly analogous to clinical NLP over EMRs and structured health records.",
@@ -252,9 +311,19 @@
           "bullets": []
         }
       ],
-      "publications": ["fallml", "turning", "insoles", "lbp", "fatigue", "fallreview", "inpatient", "hf", "exo"]
+      "publications": [
+        "pdturning",
+        "fallml",
+        "turning",
+        "insoles",
+        "lbp",
+        "fatigue",
+        "fallreview",
+        "inpatient",
+        "hf",
+        "exo"
+      ]
     },
-
     "healthcare": {
       "label": "Healthcare AI & Generative AI",
       "title": "Masoud Abdollahi, Ph.D. | Healthcare AI, Generative AI & Multimodal Deep Learning",
@@ -264,21 +333,48 @@
       "headline": "Production AI for <em>high-stakes healthcare and industrial settings</em>, where accuracy and reliability are non-negotiable.",
       "lede": "Ph.D. researcher with 4+ years building and shipping production AI systems in data-rich environments. Hands-on with large language models, vision-language models, generative AI, self-supervised learning, and multimodal deep learning on time-series and imaging data.",
       "metrics": [
-        { "value": "27+", "label": "peer-reviewed publications" },
-        { "value": "650+", "label": "citations · Google Scholar" },
-        { "value": "5", "label": "patent filings · 1 published" },
-        { "value": "25%", "label": "cycle-time reduction, VLM + GenAI system in production" }
+        {
+          "value": "28+",
+          "label": "peer-reviewed publications"
+        },
+        {
+          "value": "700+",
+          "label": "citations · Google Scholar"
+        },
+        {
+          "value": "5",
+          "label": "patent filings · 1 published"
+        },
+        {
+          "value": "25%",
+          "label": "cycle-time reduction, VLM + GenAI system in production"
+        }
       ],
       "summary": [
         "AI/ML Research Scientist with a Ph.D. and 4+ years building and shipping production AI systems in high-stakes, data-rich environments: healthcare and industrial settings where accuracy and reliability are non-negotiable. Deep hands-on expertise in large language models, vision-language models, generative AI, self-supervised learning, and multimodal deep learning on time-series and imaging data.",
-        "Track record of closing the loop from fundamental research to production deployment, with 27+ peer-reviewed publications, 650+ citations, and 5 patent filings (1 published). Currently applying clinical AI models to wearable data from people with Parkinson's disease at Oregon Health & Science University."
+        "Track record of closing the loop from fundamental research to production deployment, with 28+ peer-reviewed publications, 700+ citations, and 5 patent filings (1 published). Currently applying clinical AI models to wearable data from people with Parkinson's disease at Oregon Health & Science University."
       ],
       "expertise": [
-        { "name": "Generative & foundation models", "items": "LLMs, VLMs, prompt tuning / prompt engineering, fine-tuning, distillation, quantization, RAG" },
-        { "name": "Deep learning architectures", "items": "Transformers, CNN, RNN-LSTM, semi-supervised & self-supervised learning, transfer learning, multimodal fusion" },
-        { "name": "Healthcare & clinical data", "items": "Time-series waveform analysis (IMU, clinical sensors), electronic medical records, clinical report processing, fall-risk and neurological assessment models" },
-        { "name": "Frameworks & tools", "items": "PyTorch, TensorFlow, Hugging Face Transformers, Azure OpenAI Foundry, Azure ML, OpenCV, MATLAB, SQL, Python, C++" },
-        { "name": "Responsible AI & MLOps", "items": "Robustness evaluation, statistical error estimation, end-to-end ML pipelines, production deployment, large-scale dataset design and curation" }
+        {
+          "name": "Generative & foundation models",
+          "items": "LLMs, VLMs, prompt tuning / prompt engineering, fine-tuning, distillation, quantization, RAG"
+        },
+        {
+          "name": "Deep learning architectures",
+          "items": "Transformers, CNN, RNN-LSTM, semi-supervised & self-supervised learning, transfer learning, multimodal fusion"
+        },
+        {
+          "name": "Healthcare & clinical data",
+          "items": "Time-series waveform analysis (IMU, clinical sensors), electronic medical records, clinical report processing, fall-risk and neurological assessment models"
+        },
+        {
+          "name": "Frameworks & tools",
+          "items": "PyTorch, TensorFlow, Hugging Face Transformers, Azure OpenAI Foundry, Azure ML, OpenCV, MATLAB, SQL, Python, C++"
+        },
+        {
+          "name": "Responsible AI & MLOps",
+          "items": "Robustness evaluation, statistical error estimation, end-to-end ML pipelines, production deployment, large-scale dataset design and curation"
+        }
       ],
       "work": [
         {
@@ -311,7 +407,8 @@
           "title": "Wearable-sensor AI for Parkinson's disease",
           "text": "Developing sensor-based deep learning models to analyze freezing of gait and fall risk in Parkinson's disease, in a research-to-deployment pipeline with clinicians and medical domain experts.",
           "bullets": [
-            "Bridging quantitative ML modeling and clinical domain knowledge to inform responsible, patient-centered model development"
+            "Bridging quantitative ML modeling and clinical domain knowledge to inform responsible, patient-centered model development",
+            "First-author 2026 paper in <em>Journal of NeuroEngineering and Rehabilitation</em> on clustering segmental coordination strategies during 360° turns in Parkinson's disease"
           ]
         },
         {
@@ -319,6 +416,15 @@
           "title": "Agentic AI & generative AI system for industrial operations",
           "text": "U.S. patent application under USPTO review (2025), plus three applications in preparation on agentic AI, generative AI, sensor-based human performance assessment, and training. Inventor on all 5 filings, including the published smart-sole wearable patent (US 2026/0198641 A1).",
           "bullets": []
+        },
+        {
+          "tag": "Competition win · Hitachi America R&D AI Data Challenge",
+          "title": "Physics-informed ML for power-grid price forecasting",
+          "text": "Won the company-wide AI Data Challenge (team GridMindX): forecast day-ahead hourly electricity prices (LMP) at all 243 buses of the WECC-240 grid benchmark, scored on accuracy, data efficiency, and innovation. Paired power-flow physics with a gradient-boosted ensemble, trained on only 30 labeled days.",
+          "bullets": [
+            "Physics-derived features (optimal-power-flow and unit-commitment surrogates) carried most of the signal; the learned ensemble corrected the residual",
+            "Fully reproducible one-command package that regenerates the 489,888-row submission byte for byte"
+          ]
         },
         {
           "tag": "Ph.D. research · RIT",
@@ -333,33 +439,71 @@
           "bullets": []
         }
       ],
-      "publications": ["hf", "inpatient", "fallml", "fallreview", "insoles", "fatigue", "lbp", "turning", "exo"]
+      "publications": [
+        "pdturning",
+        "genai_mfg",
+        "hf",
+        "inpatient",
+        "fallml",
+        "fallreview",
+        "insoles",
+        "fatigue",
+        "lbp",
+        "turning",
+        "exo"
+      ]
     },
-
     "research": {
       "label": "Research Scientist",
       "title": "Masoud Abdollahi, Ph.D. | Research Scientist, Machine Learning & Multimodal AI",
-      "description": "Research Scientist with a Ph.D. and 4+ years of industry experience building and deploying ML systems at scale: deep learning, foundation models, vision-language models, multimodal AI. 27+ publications, 650+ citations, 5 patent filings.",
+      "description": "Research Scientist with a Ph.D. and 4+ years of industry experience building and deploying ML systems at scale: deep learning, foundation models, vision-language models, multimodal AI. 28+ publications, 700+ citations, 5 patent filings.",
       "resume": "assets/resume/Masoud_Abdollahi_Resume_Research_Scientist.pdf",
       "kicker": "Senior R&D Scientist · Machine learning research",
       "headline": "Research that ships: <em>from hypothesis to peer-reviewed publication to production</em>.",
       "lede": "Ph.D. researcher with 4+ years of industry experience building and deploying machine learning systems at scale. Deep learning, foundation models, vision-language models, and multimodal AI, applied to real environments with measurable product impact.",
       "metrics": [
-        { "value": "27+", "label": "peer-reviewed publications" },
-        { "value": "650+", "label": "citations · h-index 14" },
-        { "value": "5", "label": "patent filings · 1 published" },
-        { "value": "25%", "label": "bottleneck cut by a VLM + GenAI system in production" }
+        {
+          "value": "28+",
+          "label": "peer-reviewed publications"
+        },
+        {
+          "value": "700+",
+          "label": "citations · h-index 15"
+        },
+        {
+          "value": "5",
+          "label": "patent filings · 1 published"
+        },
+        {
+          "value": "25%",
+          "label": "bottleneck cut by a VLM + GenAI system in production"
+        }
       ],
       "summary": [
         "Research Scientist with a Ph.D. and 4+ years of industry experience building and deploying machine learning systems at scale. Expert in deep learning (CNNs, RNNs/LSTMs, Transformers), foundation models, vision-language models, and multimodal AI, applied to real manufacturing environments with measurable product impact.",
-        "Author of 27+ peer-reviewed publications (650+ citations) and 5 patent filings (1 published), with a track record of leading research agendas end-to-end from prototype to production. Experienced contributor to the broader research community through publications, peer review, and cross-institutional collaboration."
+        "Author of 28+ peer-reviewed publications (700+ citations) and 5 patent filings (1 published), with a track record of leading research agendas end-to-end from prototype to production. Experienced contributor to the broader research community through publications, peer review, and cross-institutional collaboration."
       ],
       "expertise": [
-        { "name": "Deep learning", "items": "Transformers, CNN, RNN-LSTM, 1D-CNN, self-supervised & semi-supervised learning, transfer learning, multimodal fusion, foundation models, fine-tuning, distillation, quantization" },
-        { "name": "Generative AI & computer vision", "items": "LLMs, VLMs, prompt engineering, RAG, Azure OpenAI Foundry; pose estimation, action recognition, OpenCV, MediaPipe" },
-        { "name": "Wearable & time-series ML", "items": "IMU / accelerometer / gyroscope pipelines, physiological waveform analysis, signal processing, gait and human motion analysis, cross-subject validation on heterogeneous populations" },
-        { "name": "Statistics & experimentation", "items": "Hypothesis testing, error estimation, calibration, drift detection, A/B-style model comparison, design of experiments, subgroup analysis" },
-        { "name": "Programming & MLOps", "items": "Python (5+ years), SQL (5+ years), PyTorch, TensorFlow, Hugging Face Transformers, scikit-learn, MATLAB, C++; end-to-end ML pipelines, containerized deployment, model monitoring, Azure ML" }
+        {
+          "name": "Deep learning",
+          "items": "Transformers, CNN, RNN-LSTM, 1D-CNN, self-supervised & semi-supervised learning, transfer learning, multimodal fusion, foundation models, fine-tuning, distillation, quantization"
+        },
+        {
+          "name": "Generative AI & computer vision",
+          "items": "LLMs, VLMs, prompt engineering, RAG, Azure OpenAI Foundry; pose estimation, action recognition, OpenCV, MediaPipe"
+        },
+        {
+          "name": "Wearable & time-series ML",
+          "items": "IMU / accelerometer / gyroscope pipelines, physiological waveform analysis, signal processing, gait and human motion analysis, cross-subject validation on heterogeneous populations"
+        },
+        {
+          "name": "Statistics & experimentation",
+          "items": "Hypothesis testing, error estimation, calibration, drift detection, A/B-style model comparison, design of experiments, subgroup analysis"
+        },
+        {
+          "name": "Programming & MLOps",
+          "items": "Python (5+ years), SQL (5+ years), PyTorch, TensorFlow, Hugging Face Transformers, scikit-learn, MATLAB, C++; end-to-end ML pipelines, containerized deployment, model monitoring, Azure ML"
+        }
       ],
       "work": [
         {
@@ -371,6 +515,15 @@
             "Deep learning (CNN, RNN-LSTM, Transformer) and classical ML pipelines on real automotive OEM datasets for manufacturing quality and warranty prediction",
             "<strong>500+ hours/year</strong> of on-site factory data collection, bridging lab research and industrial-scale deployment",
             "Research roadmap and technical strategy defined with engineering, IP/legal, and leadership teams"
+          ]
+        },
+        {
+          "tag": "Competition win · Hitachi America R&D AI Data Challenge",
+          "title": "Physics-informed ML for power-grid price forecasting",
+          "text": "Won the company-wide AI Data Challenge (team GridMindX): forecast day-ahead hourly electricity prices (LMP) at all 243 buses of the WECC-240 grid benchmark, scored on accuracy, data efficiency, and innovation. Paired power-flow physics with a gradient-boosted ensemble, trained on only 30 labeled days.",
+          "bullets": [
+            "Physics-derived features (optimal-power-flow and unit-commitment surrogates) carried most of the signal; the learned ensemble corrected the residual",
+            "Fully reproducible one-command package that regenerates the 489,888-row submission byte for byte"
           ]
         },
         {
@@ -400,7 +553,9 @@
           "tag": "Clinical AI · OHSU",
           "title": "Wearable-sensor AI for Parkinson's disease",
           "text": "Developing sensor-based deep learning models to analyze freezing of gait and fall risk in Parkinson's disease, applying time-series ML and signal processing to wearable-derived data with clinicians and medical domain experts.",
-          "bullets": []
+          "bullets": [
+            "First-author 2026 paper in <em>Journal of NeuroEngineering and Rehabilitation</em> on clustering segmental coordination strategies during 360° turns in Parkinson's disease"
+          ]
         },
         {
           "tag": "Published patent · US 2026/0198641 A1",
@@ -415,9 +570,20 @@
           "bullets": []
         }
       ],
-      "publications": ["insoles", "fallml", "inpatient", "hf", "fallreview", "turning", "exo", "fatigue", "lbp"]
+      "publications": [
+        "pdturning",
+        "genai_mfg",
+        "insoles",
+        "fallml",
+        "inpatient",
+        "hf",
+        "fallreview",
+        "turning",
+        "exo",
+        "fatigue",
+        "lbp"
+      ]
     },
-
     "industrial": {
       "label": "Industrial & Automotive AI",
       "title": "Masoud Abdollahi, Ph.D. | AI/ML Research Scientist, Industrial & Automotive AI",
@@ -427,21 +593,48 @@
       "headline": "State-of-the-art ML systems for <em>industrial and automotive applications</em>, deployed in the real world.",
       "lede": "Ph.D. researcher with 4+ years of industry experience designing and deploying machine learning systems for automotive and industrial applications: foundation models, vision-language models, generative AI, computer vision, and multimodal perception.",
       "metrics": [
-        { "value": "27+", "label": "peer-reviewed publications" },
-        { "value": "650+", "label": "citations · Google Scholar" },
-        { "value": "5", "label": "patent filings · 1 published" },
-        { "value": "25%", "label": "bottleneck cut by a VLM + GenAI system in production" }
+        {
+          "value": "28+",
+          "label": "peer-reviewed publications"
+        },
+        {
+          "value": "700+",
+          "label": "citations · Google Scholar"
+        },
+        {
+          "value": "5",
+          "label": "patent filings · 1 published"
+        },
+        {
+          "value": "25%",
+          "label": "bottleneck cut by a VLM + GenAI system in production"
+        }
       ],
       "summary": [
         "AI/ML Research Scientist with a Ph.D. and 4+ years of industry experience designing and deploying state-of-the-art machine learning systems for automotive and industrial applications. Demonstrated expertise in foundation models, vision-language models (VLMs), generative AI, deep learning (CNNs, RNNs/LSTMs, Transformers), and self-supervised learning, with direct application to computer vision, multimodal perception, and real-world deployment.",
-        "Proven track record of end-to-end AI system development from research to production, with 5 patent filings (1 published), 27+ peer-reviewed publications (650+ citations), and cross-functional collaboration across engineering, IP, and leadership teams."
+        "Proven track record of end-to-end AI system development from research to production, with 5 patent filings (1 published), 28+ peer-reviewed publications (700+ citations), and cross-functional collaboration across engineering, IP, and leadership teams."
       ],
       "expertise": [
-        { "name": "Foundation models & generative AI", "items": "LLMs, VLMs, prompt engineering, fine-tuning, distillation, quantization, RAG, Azure OpenAI Foundry" },
-        { "name": "Deep learning", "items": "Transformers, CNN, RNN-LSTM, self-supervised & semi-supervised learning, transfer learning, multimodal fusion" },
-        { "name": "Computer vision & sensing", "items": "Pose estimation, action recognition, OpenCV, MediaPipe; IMU / accelerometer / gyroscope pipelines, signal processing, human motion analysis" },
-        { "name": "Statistics & experimentation", "items": "Hypothesis testing, error estimation, calibration, drift detection, design of experiments, subgroup analysis" },
-        { "name": "Programming & MLOps", "items": "Python (5+ years), SQL (5+ years), PyTorch, TensorFlow, Hugging Face Transformers, scikit-learn, MATLAB, C++; end-to-end ML pipelines, containerized deployment, model monitoring, Azure ML" }
+        {
+          "name": "Foundation models & generative AI",
+          "items": "LLMs, VLMs, prompt engineering, fine-tuning, distillation, quantization, RAG, Azure OpenAI Foundry"
+        },
+        {
+          "name": "Deep learning",
+          "items": "Transformers, CNN, RNN-LSTM, self-supervised & semi-supervised learning, transfer learning, multimodal fusion"
+        },
+        {
+          "name": "Computer vision & sensing",
+          "items": "Pose estimation, action recognition, OpenCV, MediaPipe; IMU / accelerometer / gyroscope pipelines, signal processing, human motion analysis"
+        },
+        {
+          "name": "Statistics & experimentation",
+          "items": "Hypothesis testing, error estimation, calibration, drift detection, design of experiments, subgroup analysis"
+        },
+        {
+          "name": "Programming & MLOps",
+          "items": "Python (5+ years), SQL (5+ years), PyTorch, TensorFlow, Hugging Face Transformers, scikit-learn, MATLAB, C++; end-to-end ML pipelines, containerized deployment, model monitoring, Azure ML"
+        }
       ],
       "work": [
         {
@@ -453,6 +646,15 @@
             "<strong>25%</strong> reduction in a critical bottleneck operation time",
             "<strong>500+ hours/year</strong> of on-site factory presence and data collection",
             "Research roadmap and technical strategy defined with engineering, IP/legal, and leadership teams"
+          ]
+        },
+        {
+          "tag": "Competition win · Hitachi America R&D AI Data Challenge",
+          "title": "Physics-informed ML for power-grid price forecasting",
+          "text": "Won the company-wide AI Data Challenge (team GridMindX): forecast day-ahead hourly electricity prices (LMP) at all 243 buses of the WECC-240 grid benchmark, scored on accuracy, data efficiency, and innovation. Paired power-flow physics with a gradient-boosted ensemble, trained on only 30 labeled days.",
+          "bullets": [
+            "Physics-derived features (optimal-power-flow and unit-commitment surrogates) carried most of the signal; the learned ensemble corrected the residual",
+            "Fully reproducible one-command package that regenerates the 489,888-row submission byte for byte"
           ]
         },
         {
@@ -477,7 +679,9 @@
           "tag": "Clinical AI · OHSU",
           "title": "Wearable-sensor AI for Parkinson's disease",
           "text": "Concurrent part-time research developing sensor-based deep learning models to analyze freezing of gait and fall risk in Parkinson's disease, with clinicians and medical domain experts.",
-          "bullets": []
+          "bullets": [
+            "First-author 2026 paper in <em>Journal of NeuroEngineering and Rehabilitation</em> on clustering segmental coordination strategies during 360° turns in Parkinson's disease"
+          ]
         },
         {
           "tag": "Evaluation · Production monitoring",
@@ -492,7 +696,43 @@
           "bullets": []
         }
       ],
-      "publications": ["insoles", "exo", "fatigue", "lbp", "fallml", "turning", "fallreview", "inpatient", "hf"]
+      "publications": [
+        "genai_mfg",
+        "insoles",
+        "exo",
+        "fatigue",
+        "lbp",
+        "fallml",
+        "turning",
+        "fallreview",
+        "inpatient",
+        "hf"
+      ]
     }
-  }
+  },
+  "highlights": [
+    {
+      "date": "2026",
+      "text": "Won the Hitachi America R&D AI Data Challenge with a physics-informed, data-efficient forecasting model"
+    },
+    {
+      "date": "Oct 2026",
+      "text": "First-author paper on 360° turning strategies in Parkinson's disease, <em>Journal of NeuroEngineering and Rehabilitation</em>",
+      "url": "https://doi.org/10.1186/s12984-026-02188-z"
+    },
+    {
+      "date": "Jul 2026",
+      "text": "Smart-sole wearable patent application published, US 2026/0198641 A1",
+      "url": "https://patents.google.com/patent/US20260198641A1/en"
+    },
+    {
+      "date": "Jun 2026",
+      "text": "Generative AI framework for procedural knowledge extraction and training content in manufacturing, ASME MSEC 2026",
+      "url": "https://doi.org/10.1115/msec2026-180635"
+    },
+    {
+      "date": "Jun 2026",
+      "text": "Promoted to Senior R&D Scientist, Hitachi America"
+    }
+  ]
 }

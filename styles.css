@@ -297,6 +297,20 @@ h3.sub {
 .honor-year { color: var(--muted); font-variant-numeric: tabular-nums; }
 .service { font-size: 0.95rem; color: var(--ink-2); margin: 0; }
 
+/* Recent highlights */
+.news { list-style: none; margin: 0; padding: 0; }
+.news li {
+  display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 16px;
+  padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 0.95rem; color: var(--ink-2);
+}
+.news li:last-child { border-bottom: 0; }
+.news-date { color: var(--accent-ink); font-weight: 600; font-size: 0.86rem; padding-top: 2px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.news a { color: inherit; text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px; }
+.news a:hover { color: var(--accent-ink); text-decoration-color: var(--accent); }
+.patent-title a { color: inherit; text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px; }
+.patent-title a:hover { color: var(--accent-ink); }
+@media (max-width: 560px) { .news li { grid-template-columns: 1fr; gap: 2px; } }
+
 /* Contact */
 .contact-lede { font-family: var(--serif); font-size: 1.35rem; line-height: 1.4; color: var(--ink); margin: 0 0 20px; }
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }

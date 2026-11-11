@@ -156,6 +156,16 @@ def render_honors(honors):
     )
 
 
+def render_highlights(items):
+    out = []
+    for h in items:
+        text = esc(h["text"])
+        if h.get("url"):
+            text = f'<a href="{attr(h["url"])}" rel="noopener">{text}</a>'
+        out.append(f'        <li><span class="news-date">{esc(h["date"])}</span><span>{text}</span></li>')
+    return "\n".join(out)
+
+
 def build():
     data = json.loads(CONTENT.read_text(encoding="utf-8"))
     site, stats, variants = data["site"], data["stats"], data["variants"]
@@ -193,6 +203,7 @@ def build():
             "Signal processing", "Computer vision", "Generative AI", "Vision-language models",
             "Clinical AI", "Human motion analysis",
         ],
+        "award": [re.sub(r"<[^>]+>", "", f'{h["text"]} ({h["year"]})') for h in data["honors"]],
     }
 
     honor_text = site.get("hero_honor") or data["honors"][0]["text"]
@@ -221,6 +232,7 @@ def build():
             f"{stats['publications']} peer-reviewed publications · {stats['citations']} citations · h-index {stats['h_index']}"
         ),
         "roles": render_roles(data["roles"]),
+        "highlights": render_highlights(data.get("highlights", [])),
         "patents": render_patents(data["patents"]),
         "education": render_education(data["education"]),
         "honors": render_honors(data["honors"]),
